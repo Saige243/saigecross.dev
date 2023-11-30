@@ -1,3 +1,7 @@
+<script>
+	import Navbar from './Navbar.svelte';
+</script>
+
 <svelte:head>
 	<title>Saige Cross Portfolio</title>
 	<meta name="description" content="Saige Cross Portfolio" />
