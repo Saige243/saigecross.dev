@@ -3,7 +3,7 @@
 	import Navbar from './Navbar.svelte';
 </script>
 
-<div class="px-16 md:px-48 xl:px-72">
+<div class="flex w-screen">
 	<Navbar />
 	<slot />
 </div>

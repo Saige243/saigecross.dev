@@ -1,5 +1,4 @@
 <script>
-	import Navbar from './Navbar.svelte';
 </script>
 
 <svelte:head>
@@ -7,9 +6,34 @@
 	<meta name="description" content="Saige Cross Portfolio" />
 </svelte:head>
 
-<section>
-	<h1 class="text-5xl">Hi, I'm Saige.</h1>
-	<p class="text-red-400">
-		Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
-	</p>
-</section>
+<article class="scroller">
+	<section class=" bg-blue-200">
+		<h1 class="text-5xl">I'm Saige. 👋</h1>
+		<h2 class="text-2xl">
+			I'm a full-stack web developer with a passion for creating beautiful, functional websites and
+			applications.
+		</h2>
+	</section>
+	<section class="bg-blue-400">
+		<h1 class="text-5xl pb-4">I'm Saige. 👋</h1>
+		<h2 class="text-2xl">
+			I'm a full-stack web developer with a passion for creating beautiful, functional websites and
+			applications.
+		</h2>
+	</section>
+</article>
+
+<style>
+	section {
+		height: 100vh;
+		width: 100vw;
+	}
+	.scroller {
+		height: 100vh; /* Set the height to the viewport height */
+		overflow-y: scroll;
+		scroll-snap-type: y mandatory;
+	}
+	.scroller section {
+		scroll-snap-align: start;
+	}
+</style>

@@ -15,11 +15,11 @@
 	}
 </script>
 
-<navbar class="flex justify-between">
+<navbar class="flex flex-col px-4 justify-center">
 	{#each $pages as { name, path }}
 		<a
 			href={path}
-			class="px-4 py-2 text-gray-800 hover:bg-gray-200 hover:text-gray-900"
+			class="py-2 text-gray-800 hover:bg-gray-200 hover:text-gray-900"
 			class:active={$currentPage === path}
 			on:click={() => handleLinkClick(path)}
 		>
