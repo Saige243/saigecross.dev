@@ -1,4 +1,8 @@
 <script lang="ts">
+	function scrollToSection($currentPage: string) {
+		const el = document.getElementById($currentPage);
+		el?.scrollIntoView({ behavior: 'smooth' });
+	}
 </script>
 
 <svelte:head>
@@ -7,8 +11,8 @@
 </svelte:head>
 
 <article class="scroller">
-	<section class=" bg-blue-200">
-		<h1 class="text-5xl">I'm Saige. 👋</h1>
+	<section id="home" class="bg-blue-200">
+		<h1 class="text-5xl">I'm Saige.👋</h1>
 		<h2 class="text-2xl">
 			I'm a full-stack web developer with a passion for creating beautiful, functional websites and
 			applications.

@@ -1,22 +1,19 @@
 <script lang="ts">
-	import { getContext } from 'svelte';
 	import { writable } from 'svelte/store';
 
-	let currentPage = writable('/');
-	const context = getContext('currentPage');
-	if (context) {
-		currentPage.set(context as string);
-	}
+	export const currentPage = writable('home');
+
+	$: console.log('currentPage', $currentPage);
 
 	const pages = writable([
-		{ name: 'Home', id: '/' },
+		{ name: 'Home', id: 'home' },
 		{ name: 'Projects', id: 'projects' },
 		{ name: 'About', id: 'about' },
 		{ name: 'Contact', id: 'contact' }
 	]);
 
-	function handleLinkClick(path: string) {
-		currentPage.set(path);
+	function handleLinkClick(id: string) {
+		currentPage.set(id);
 	}
 </script>
 
