@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { currentPage } from '../stores';
+
 	function scrollToSection($currentPage: string) {
 		const el = document.getElementById($currentPage);
 		el?.scrollIntoView({ behavior: 'smooth' });
@@ -12,7 +14,7 @@
 
 <article class="scroller">
 	<section id="home" class="bg-blue-200">
-		<h1 class="text-5xl">I'm Saige.👋</h1>
+		<h1 class="text-5xl">I'm Saige. {$currentPage}👋</h1>
 		<h2 class="text-2xl">
 			I'm a full-stack web developer with a passion for creating beautiful, functional websites and
 			applications.

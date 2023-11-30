@@ -1,9 +1,6 @@
 <script lang="ts">
 	import { writable } from 'svelte/store';
-
-	export const currentPage = writable('home');
-
-	$: console.log('currentPage', $currentPage);
+	import { currentPage } from '../stores';
 
 	const pages = writable([
 		{ name: 'Home', id: 'home' },
