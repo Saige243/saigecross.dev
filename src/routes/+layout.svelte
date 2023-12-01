@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import Navbar from '$lib/components/Navbar.svelte';
+	import { onMount } from 'svelte';
 </script>
 
 <div class="flex w-screen bg-primary">
@@ -26,6 +27,6 @@
 
 	.content {
 		flex: 1;
-		width: calc(100% - var(--navbar-width)); /* Subtract Navbar width */
+		width: calc(100% - var(--navbar-width));
 	}
 </style>

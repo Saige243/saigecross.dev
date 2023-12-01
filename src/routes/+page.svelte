@@ -3,6 +3,30 @@
 	import Projects from '$lib/components/Projects.svelte';
 	import About from '$lib/components/About.svelte';
 	import Contact from '$lib/components/Contact.svelte';
+	import { onMount } from 'svelte';
+	import { scrolledSection } from '$lib/stores';
+
+	let scroller: HTMLElement;
+
+	onMount(() => {
+		const observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						const sectionId = entry.target.id;
+						scrolledSection.set(sectionId);
+					}
+				});
+			},
+			{ threshold: 1 }
+		);
+
+		document.querySelectorAll('section').forEach((section) => {
+			observer.observe(section);
+		});
+
+		return () => observer.disconnect();
+	});
 </script>
 
 <svelte:head>
@@ -10,7 +34,7 @@
 	<meta name="description" content="saigecross.dev" />
 </svelte:head>
 
-<article class="scroller">
+<article bind:this={scroller} class="scroller">
 	<section id="home" class="py-16">
 		<Home />
 	</section>

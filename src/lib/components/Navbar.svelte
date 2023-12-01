@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { writable } from 'svelte/store';
+	import { scrolledSection } from '$lib/stores';
 
 	const pages = writable([
 		{ name: 'Home', id: 'home' },
@@ -7,6 +8,12 @@
 		{ name: 'About', id: 'about' },
 		{ name: 'Contact', id: 'contact' }
 	]);
+
+	$: {
+		if ($scrolledSection) {
+			currentPage.set($scrolledSection);
+		}
+	}
 
 	export const currentPage = writable('home');
 
