@@ -6,12 +6,12 @@
 </script>
 
 <svelte:head>
-	<title>Saige Cross Portfolio</title>
-	<meta name="description" content="Saige Cross Portfolio" />
+	<title>I'm Saige 👋</title>
+	<meta name="description" content="saigecross.dev" />
 </svelte:head>
 
 <article class="scroller">
-	<section id="home">
+	<section id="home" class="py-16">
 		<Home />
 	</section>
 	<section id="projects" class="py-16">
@@ -24,3 +24,10 @@
 		<Contact />
 	</section>
 </article>
+
+<style>
+	section {
+		height: 100vh;
+		width: 90vw;
+	}
+</style>

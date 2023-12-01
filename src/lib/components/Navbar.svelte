@@ -18,15 +18,17 @@
 </script>
 
 <navbar class="flex flex-col px-4 text-center">
-	{#each $pages as { name, id }}
-		<button
-			on:click={() => scrollToSection(id)}
-			class="py-4 text-gray-800 hover:bg-gray-200 hover:text-gray-900"
-			class:active={$currentPage === id}
-		>
-			{name}
-		</button>
-	{/each}
+	<div class="w-[100px]">
+		{#each $pages as { name, id }}
+			<button
+				on:click={() => scrollToSection(id)}
+				class="py-4 text-gray-800 hover:bg-gray-200 hover:text-gray-900"
+				class:active={$currentPage === id}
+			>
+				{name}
+			</button>
+		{/each}
+	</div>
 </navbar>
 
 <style>
