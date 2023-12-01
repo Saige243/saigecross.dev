@@ -52,6 +52,6 @@
 <style>
 	section {
 		height: 100vh;
-		width: 90vw;
+		width: calc(100% - var(--navbar-width));
 	}
 </style>

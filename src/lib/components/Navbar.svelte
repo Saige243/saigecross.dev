@@ -24,7 +24,7 @@
 	}
 </script>
 
-<navbar class="flex flex-col px-4 text-center">
+<navbar class="hidden sm:flex sm:flex-col sm:px-4 sm:text-center">
 	<div class="w-[100px]">
 		{#each $pages as { name, id }}
 			<button
