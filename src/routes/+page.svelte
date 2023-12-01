@@ -1,4 +1,8 @@
 <script lang="ts">
+	import Home from '$lib/components/Home.svelte';
+	import Projects from '$lib/components/Projects.svelte';
+	import About from '$lib/components/About.svelte';
+	import Contact from '$lib/components/Contact.svelte';
 </script>
 
 <svelte:head>
@@ -7,23 +11,16 @@
 </svelte:head>
 
 <article class="scroller">
-	<section id="home" class="bg-blue-200">
-		<h1 class="text-5xl">I'm Saige.👋</h1>
-		<h2 class="text-2xl">
-			I'm a full-stack web developer with a passion for creating beautiful, functional websites and
-			applications.
-		</h2>
+	<section id="home">
+		<Home />
 	</section>
 	<section id="projects" class="py-16">
-		<h1 class="text-5xl pb-4">Projects Page</h1>
-		<h2 class="text-2xl">This is where your projects content will be.</h2>
+		<Projects />
 	</section>
 	<section id="about" class="py-16">
-		<h1 class="text-5xl pb-4">About Page</h1>
-		<h2 class="text-2xl">This is where your projects content will be.</h2>
+		<About />
 	</section>
 	<section id="contact" class="py-16">
-		<h1 class="text-5xl pb-4">Contact Page</h1>
-		<h2 class="text-2xl">This is where your projects content will be.</h2>
+		<Contact />
 	</section>
 </article>
