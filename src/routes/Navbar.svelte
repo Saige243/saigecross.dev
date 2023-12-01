@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { writable } from 'svelte/store';
-	import { currentPage } from '../stores';
 
 	const pages = writable([
 		{ name: 'Home', id: 'home' },
@@ -9,17 +8,21 @@
 		{ name: 'Contact', id: 'contact' }
 	]);
 
-	function handleLinkClick(id: string) {
+	export const currentPage = writable('home');
+
+	function scrollToSection(id: string) {
 		currentPage.set(id);
+		const el = document.getElementById(id);
+		el?.scrollIntoView({ behavior: 'smooth' });
 	}
 </script>
 
 <navbar class="flex flex-col px-4 text-center">
 	{#each $pages as { name, id }}
 		<button
+			on:click={() => scrollToSection(id)}
 			class="py-4 text-gray-800 hover:bg-gray-200 hover:text-gray-900"
 			class:active={$currentPage === id}
-			on:click={() => handleLinkClick(id)}
 		>
 			{name}
 		</button>

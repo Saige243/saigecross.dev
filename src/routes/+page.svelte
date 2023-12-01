@@ -1,17 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import { currentPage } from '../stores';
-
-	function scrollToSection($currentPage: string) {
-		const el = document.getElementById($currentPage);
-		el?.scrollIntoView({ behavior: 'smooth' });
-	}
-
-	onMount(() => {
-		scrollToSection($currentPage);
-	});
-
-	$: scrollToSection($currentPage);
 </script>
 
 <svelte:head>
