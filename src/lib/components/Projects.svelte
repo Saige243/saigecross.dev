@@ -17,9 +17,9 @@
 		</h2>
 	</div>
 
-	<div class="flex flex-wrap">
+	<div class="flex flex-row overflow-x-auto">
 		{#each projectData as project}
-			<div class="w-1/2 p-2">
+			<div class="w-full p-2">
 				<ProjectCard {...project} />
 			</div>
 		{/each}
