@@ -51,7 +51,7 @@
 		{#each $pages as { name, id }}
 			<button
 				on:click={() => scrollToSection(id)}
-				class="pb-4 dark:text-white font-bold text-2xl hover:underline underline-offset-8 decoration-blue-600 decoration-4"
+				class="pb-4 dark:text-white font-bold text-xl hover:underline underline-offset-8 decoration-blue-600 decoration-4"
 				class:active={$currentPage === id}
 				class:dark:active={$currentPage === id}
 			>

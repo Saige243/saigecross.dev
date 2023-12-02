@@ -11,7 +11,7 @@ section {
 	width: 100vw;
 }
 .scroller {
-	height: 100vh; /* Set the height to the viewport height */
+	height: 100vh;
 	overflow-y: scroll;
 	scroll-snap-type: y mandatory;
 }
