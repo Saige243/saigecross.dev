@@ -3,7 +3,7 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 </script>
 
-<div class="flex w-screen dark:bg-primary bg-slate-400 px-8 md:px-40 xl:px-72">
+<div class="flex w-screen bg-slate-400 dark:bg-primary px-8 md:px-40 xl:px-72">
 	<Navbar />
 	<slot />
 </div>

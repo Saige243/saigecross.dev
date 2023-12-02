@@ -51,8 +51,9 @@
 		{#each $pages as { name, id }}
 			<button
 				on:click={() => scrollToSection(id)}
-				class="pb-4 text-gray-800 hover:bg-gray-200 hover:text-gray-900"
+				class="pb-4 dark:text-white font-bold text-2xl hover:underline underline-offset-8 decoration-blue-600 decoration-4"
 				class:active={$currentPage === id}
+				class:dark:active={$currentPage === id}
 			>
 				{name}
 			</button>
@@ -63,11 +64,7 @@
 	</div>
 	<div class="flex flex-col w-[100px] pb-24">
 		{#each $socials as { name, url, icon }}
-			<a
-				href={url}
-				target="_blank"
-				class="py-4 text-gray-800 hover:bg-gray-200 hover:text-gray-900"
-			>
+			<a href={url} target="_blank" class="py-4 hover:opacity-40 w-fit">
 				<img src={icon} alt={name} />
 			</a>
 		{/each}
@@ -76,6 +73,6 @@
 
 <style>
 	.active {
-		text-decoration: underline;
+		color: #2563eb;
 	}
 </style>
