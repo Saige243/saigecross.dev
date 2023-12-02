@@ -35,16 +35,16 @@
 </svelte:head>
 
 <article bind:this={scroller} class="scroller">
-	<section id="home" class="py-16">
+	<section id="home" class="py-12">
 		<Home />
 	</section>
-	<section id="projects" class="py-16">
+	<section id="projects" class="py-12">
 		<Projects />
 	</section>
-	<section id="about" class="py-16">
+	<section id="about" class="py-12">
 		<About />
 	</section>
-	<section id="contact" class="py-16">
+	<section id="contact" class="py-12">
 		<Contact />
 	</section>
 </article>

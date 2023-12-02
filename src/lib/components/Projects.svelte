@@ -3,7 +3,7 @@
 	import { projectData } from '../data/project-data';
 </script>
 
-<div>
+<div class="w-screen md:w-full">
 	<div class="pb-4">
 		<h1
 			class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
@@ -17,9 +17,9 @@
 		</h2>
 	</div>
 
-	<div class="flex flex-row overflow-x-auto">
+	<div class="grid grid-cols-2 grid-rows-2">
 		{#each projectData as project}
-			<div class="w-full p-2">
+			<div class="p-2">
 				<ProjectCard {...project} />
 			</div>
 		{/each}

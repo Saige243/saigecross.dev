@@ -46,7 +46,7 @@
 	}
 </script>
 
-<navbar class="hidden sm:flex sm:flex-col sm:px-4 justify-between">
+<navbar class="hidden md:flex sm:flex-col sm:px-4 justify-between">
 	<div class="pt-16 w-[100px]">
 		{#each $pages as { name, id }}
 			<button
