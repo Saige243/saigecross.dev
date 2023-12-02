@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { writable } from 'svelte/store';
 	import { scrolledSection } from '$lib/stores';
+	import Toggle from '$lib/components/Toggle.svelte';
 	import Github from '$lib/assets/github.svg';
 	import Twitter from '$lib/assets/twitter.svg';
 	import LinkedIn from '$lib/assets/linkedin.svg';
@@ -45,19 +46,22 @@
 	}
 </script>
 
-<navbar class="hidden sm:flex sm:flex-col sm:px-4 sm:text-center justify-between">
-	<div class="w-[100px]">
+<navbar class="hidden sm:flex sm:flex-col sm:px-4 justify-between">
+	<div class="pt-16 w-[100px]">
 		{#each $pages as { name, id }}
 			<button
 				on:click={() => scrollToSection(id)}
-				class="py-4 text-gray-800 hover:bg-gray-200 hover:text-gray-900"
+				class="pb-4 text-gray-800 hover:bg-gray-200 hover:text-gray-900"
 				class:active={$currentPage === id}
 			>
 				{name}
 			</button>
 		{/each}
+		<div class="flex pt-4">
+			<Toggle />
+		</div>
 	</div>
-	<div class="flex flex-col place-items-center w-[100px] pb-24">
+	<div class="flex flex-col w-[100px] pb-24">
 		{#each $socials as { name, url, icon }}
 			<a
 				href={url}
