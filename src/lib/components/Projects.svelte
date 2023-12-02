@@ -3,7 +3,7 @@
 	import { projectData } from '../data/project-data';
 </script>
 
-<div class="w-screen md:w-full">
+<div class="w-screen md:w-full px-4 md:px-0">
 	<div class="pb-4">
 		<h1
 			class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
