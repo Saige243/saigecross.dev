@@ -2,22 +2,26 @@
 	import TechBadge from './TechBadge.svelte';
 </script>
 
-<div class="px-4 pr-12 mx-auto w-full">
-	<h1
-		class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
-	>
-		I'm Saige. 👋
-	</h1>
-	<h2
-		class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white"
-	>
-		Fullstack Software Engineer.
-	</h2>
-	<p class="mb-8 text-lg font-normal text-gray-800 lg:text-xl dark:text-gray-200">
-		I love to build awesome things.
-	</p>
-	<div class="grid grid-cols-6 grid-rows-3 w-3/4 justify-between">
-		<TechBadge />
+<div class="flex h-screen flex-col space-y-12 text-center px-4 pr-12 mx-auto w-full">
+	<div>
+		<h1
+			class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
+		>
+			I'm Saige.
+		</h1>
+		<h2
+			class="mb-4 text-blue-800 text-2xl font-extrabold tracking-tight leading-none md:text-4xl lg:text-5xl dark:text-blue-200"
+		>
+			Fullstack Software Engineer.
+		</h2>
+		<p class="text-gray-700 dark:text-gray-400">
+			I love building things. Here are some of my favorite recent technologies:
+		</p>
+	</div>
+	<div class="flex justify-center">
+		<div class="grid grid-cols-3 grid-rows-6 lg:grid lg:grid-cols-6 lg:grid-rows-3 lg:w-3/4">
+			<TechBadge />
+		</div>
 	</div>
 </div>
 
