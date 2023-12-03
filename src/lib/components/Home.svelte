@@ -2,7 +2,7 @@
 	import TechBadge from './TechBadge.svelte';
 </script>
 
-<div class="px-4 mx-auto w-full">
+<div class="px-4 pr-12 mx-auto w-full">
 	<h1
 		class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
 	>
@@ -16,7 +16,7 @@
 	<p class="mb-8 text-lg font-normal text-gray-800 lg:text-xl dark:text-gray-200">
 		I love to build awesome things.
 	</p>
-	<div class="flex flex-col space-y-4 sm:flex-row">
+	<div class="grid grid-cols-6 grid-rows-3 w-3/4 justify-between">
 		<TechBadge />
 	</div>
 </div>
