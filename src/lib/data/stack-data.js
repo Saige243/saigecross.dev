@@ -19,29 +19,34 @@ import storybook from '$lib/assets/badges/storybook.svg';
 
 export const stackData = [
 	{
+		title: 'Node',
+		image: node,
+		link: 'https://nodejs.org/en/learn'
+	},
+	{
+		title: 'Typescript',
+		image: typescript,
+		link: 'https://www.typescriptlang.org/'
+	},
+	{
+		title: 'React',
+		image: react,
+		link: 'https://react.dev/'
+	},
+	{
 		title: 'Svelte',
 		image: svelte,
 		link: 'https://svelte.dev'
 	},
 	{
-		title: 'React',
-		image: react,
-		link: 'https://www.google.com'
-	},
-	{
-		title: 'Node',
-		image: node,
-		link: 'https://www.google.com'
-	},
-	{
 		title: 'Jquery',
 		image: jquery,
-		link: 'https://www.google.com'
+		link: 'https://jquery.com/'
 	},
 	{
 		title: 'Firebase',
 		image: firebase,
-		link: 'https://www.google.com'
+		link: 'https://firebase.google.com/?gad_source=1&gclid=Cj0KCQiA67CrBhC1ARIsACKAa8Stp-Av33LlqPWA4_WmAGynpc4tnzTD6ehbbP_vqIXLfYA_suqDNpQaAh13EALw_wcB&gclsrc=aw.ds'
 	},
 	// {
 	// title: 'Express',
@@ -49,59 +54,54 @@ export const stackData = [
 	// link: 'https://www.google.com'
 	// },
 	{
-		title: 'Typescript',
-		image: typescript,
-		link: 'https://www.google.com'
-	},
-	{
 		title: 'Electron',
 		image: electron,
-		link: 'https://www.google.com'
+		link: 'https://www.electronjs.org/'
 	},
 	{
 		title: 'MongoDB',
 		image: mongodb,
-		link: 'https://www.google.com'
+		link: 'https://www.mongodb.com/'
 	},
 	{
 		title: 'TailwindCSS',
 		image: tailwind,
-		link: 'https://www.google.com'
+		link: 'https://tailwindcss.com/'
 	},
 	{
 		title: 'NextJs',
 		image: nextjs,
-		link: 'https://www.google.com'
+		link: 'https://nextjs.org/'
 	},
 	{
 		title: 'Storybook',
 		image: storybook,
-		link: 'https://www.google.com'
+		link: 'https://storybook.js.org/'
 	},
 	{
 		title: 'GraphQL',
 		image: graphql,
-		link: 'https://www.google.com'
+		link: 'https://graphql.org/'
 	},
 	{
 		title: 'PostgreSQL',
 		image: postgres,
-		link: 'https://www.google.com'
+		link: 'https://www.postgresql.org/'
 	},
 	{
 		title: 'Rails',
 		image: rails,
-		link: 'https://www.google.com'
+		link: 'https://rubyonrails.org/'
 	},
 	{
 		title: 'Git',
 		image: git,
-		link: 'https://www.google.com'
+		link: 'https://git-scm.com/'
 	},
 	{
 		title: 'Heroku',
 		image: heroku,
-		link: 'https://www.google.com'
+		link: 'https://www.heroku.com/'
 	},
 	// {
 	// 	title: 'Netlify',
@@ -121,11 +121,11 @@ export const stackData = [
 	{
 		title: 'AWS',
 		image: aws,
-		link: 'https://www.google.com'
+		link: 'https://aws.amazon.com/free/?gclid=Cj0KCQiA67CrBhC1ARIsACKAa8TW6bpncQ84ZP9q0Q-6SG4YOy40pDoNYIhXNx6Ds_Vj1zef62rTepMaAvnjEALw_wcB&trk=fce796e8-4ceb-48e0-9767-89f7873fac3d&sc_channel=ps&ef_id=Cj0KCQiA67CrBhC1ARIsACKAa8TW6bpncQ84ZP9q0Q-6SG4YOy40pDoNYIhXNx6Ds_Vj1zef62rTepMaAvnjEALw_wcB:G:s&s_kwcid=AL!4422!3!592542020599!e!!g!!aws!1644045032!68366401852&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all'
 	},
 	{
 		title: 'Docker',
 		image: docker,
-		link: 'https://www.google.com'
+		link: 'https://docs.docker.com/'
 	}
 ];
