@@ -1,3 +1,11 @@
+type ProjectData = {
+	title: string;
+	description: string;
+	image: string;
+	link: string;
+	stack: string[];
+};
+
 export const projectData = [
 	{
 		title: 'BookBud',
@@ -28,5 +36,24 @@ export const projectData = [
 		image: 'https://picsum.photos/200/300',
 		link: 'https://www.google.com',
 		stack: ['Typescript', 'React', 'Node', 'Express', 'MongoDB', 'TailwindCSS']
+	}
+];
+
+export const projectPageData: ProjectData[] = [
+	{
+		title: 'BookBud',
+		description:
+			'lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl eget aliquam ultricies, nunc nisl aliquet nunc, nec aliquam nisl',
+		image: 'https://picsum.photos/200/300',
+		link: 'https://www.google.com',
+		stack: ['Typescript', 'React', 'Node', 'Express', 'MongoDB', 'TailwindCSS']
+	},
+	{
+		title: 'Maisie Cross Designs',
+		description:
+			'lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl eget aliquam ultricies, nunc nisl aliquet nunc, nec aliquam nisl',
+		image: 'https://picsum.photos/200/300',
+		link: 'https://www.google.com',
+		stack: ['Typescript', 'NextJs', 'Node', 'TailwindCSS']
 	}
 ];

@@ -1,6 +1,16 @@
-<script>
+<script lang="ts">
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
 	import { projectData } from '../data/project-data';
+	import Modal from '$lib/components/Modal.svelte';
+
+	let showModal = false;
+	let projectContent: string;
+
+	function handleModalClick(title: string) {
+		projectContent = title;
+
+		showModal = true;
+	}
 </script>
 
 <div class="w-screen md:w-full px-4 md:px-0">
@@ -17,10 +27,12 @@
 		</h2>
 	</div>
 
+	<Modal bind:showModal {projectContent} />
+
 	<div class="grid grid-cols-2 grid-rows-2">
 		{#each projectData as project}
 			<div class="p-2">
-				<ProjectCard {...project} />
+				<ProjectCard {...project} {handleModalClick} />
 			</div>
 		{/each}
 	</div>

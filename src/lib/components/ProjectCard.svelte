@@ -1,9 +1,10 @@
-<script>
-	const { title, description, image, url, stack } = $$props;
+<script lang="ts">
+	const { title, description, image, stack, handleModalClick } = $$props;
 </script>
 
 <a
-	href={url}
+	href={''}
+	on:click={() => handleModalClick(title)}
 	class="flex flex-col justify-between h-72 p-2 sm:p-4 bg-white border border-gray-200 rounded-lg shadow-xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 cursor-pointer"
 >
 	<!-- <img src={image} alt={title} /> -->
