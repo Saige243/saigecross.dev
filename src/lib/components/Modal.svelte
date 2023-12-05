@@ -27,10 +27,10 @@
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div
 		on:click|stopPropagation
-		class="flex flex-col max-w-screen h-screen justify-around dark:bg-gray-600"
+		class="flex flex-col max-w-screen h-screen justify-around dark:bg-gray-600 p-2"
 	>
 		<div class="absolute top-2 right-4" on:click={() => dialog.close()}>
-			<button>X</button>
+			<button>&#x2715;</button>
 		</div>
 		<h1
 			class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
@@ -40,12 +40,14 @@
 		</h1>
 		<Carousel />
 		<hr />
-		<p>{$projectContent.description}</p>
+		<p class="dark:text-white">{$projectContent.description}</p>
 		<hr />
-		<p>{$projectContent.stack}</p>
+		<p class="dark:text-white">{$projectContent.stack}</p>
 		<!-- svelte-ignore a11y-autofocus -->
 		<div>
-			<button autofocus on:click={() => dialog.close()}>back to projects</button>
+			<button autofocus on:click={() => dialog.close()} class="dark:text-white"
+				>&larr; back to projects</button
+			>
 		</div>
 	</div>
 </dialog>

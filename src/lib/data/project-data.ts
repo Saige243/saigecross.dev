@@ -43,7 +43,7 @@ export const projectPageData = [
 	{
 		title: 'Maisie Cross Designs',
 		description:
-			'lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl eget aliquam ultricies, nunc nisl aliquet nunc, nec aliquam nisl',
+			'This is the personal portfolio of UI/UX designer Maisie Cross. The site was built to showcase Maisie’s work and provide a way for potential clients to contact her. The site was built with NextJs and TailwindCSS, and is hosted on Vercel.',
 		image: 'https://picsum.photos/200/300',
 		link: 'https://github.com/Saige243/MaisieCrossDesigns',
 		stack: ['Typescript', 'NextJs', 'Node', 'TailwindCSS']
@@ -51,7 +51,7 @@ export const projectPageData = [
 	{
 		title: 'Lotta Lattes',
 		description:
-			'lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl eget aliquam ultricies, nunc nisl aliquet nunc, nec aliquam nisl',
+			'Lotta Lattes is a finance game focused on teaching users about the power of compound interest. The game started as a job interview skill assessment (which actually landed me the job) but has since grown over time, as I had a lot of fun with the idea.',
 		image: 'https://picsum.photos/200/300',
 		link: 'https://github.com/Saige243/MaisieCrossDesigns',
 		stack: ['Typescript', 'NextJs', 'Node', 'TailwindCSS']
