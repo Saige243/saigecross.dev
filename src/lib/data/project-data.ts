@@ -16,7 +16,8 @@ export const projectData = [
 	},
 	{
 		title: 'Lotta Lattes',
-		description: 'This site (how meta).',
+		description:
+			'A finance game focused on providing a fun way to save money and celebrate small wins (with coffee).',
 		image: 'https://picsum.photos/200/300',
 		link: 'https://www.google.com',
 		stack: ['Typescript', 'Svelte', 'TailwindCSS']

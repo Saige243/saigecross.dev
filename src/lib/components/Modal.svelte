@@ -22,7 +22,7 @@
 	bind:this={dialog}
 	on:close={() => (showModal = false)}
 	on:click|self={() => dialog.close()}
-	class="px-40"
+	class="md:px-40"
 >
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div
