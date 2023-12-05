@@ -19,7 +19,9 @@
 	on:click={() => handleModalClick(title)}
 	class="flex flex-col justify-between h-72 p-2 sm:p-4 bg-white border border-gray-200 rounded-lg shadow-xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 cursor-pointer"
 >
-	<!-- <img src={image} alt={title} /> -->
+	<div class="w-40 h-32">
+		<img src="https://picsum.photos/800/600?grayscale&random=1" alt="project" />
+	</div>
 	<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 		{title}
 	</h5>

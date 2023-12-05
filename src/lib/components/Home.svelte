@@ -3,8 +3,6 @@
 	import { stackData } from '$lib/data/stack-data';
 
 	const stackDataArr = stackData;
-
-	$: console.log('home stackData', stackData);
 </script>
 
 <div class="flex h-screen flex-col space-y-12 text-center px-4 pr-12 mx-auto w-full">
