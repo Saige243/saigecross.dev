@@ -23,7 +23,7 @@ export const projectData = [
 		stack: ['Typescript', 'Svelte', 'TailwindCSS']
 	},
 	{
-		title: 'SaigeCross.dev',
+		title: '(This Site)',
 		description:
 			'BookBud is a fully-functional CRUD book review app that allows users to search for books and leave reviews.',
 		image: 'https://picsum.photos/200/300',
