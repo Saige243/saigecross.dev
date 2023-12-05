@@ -2,6 +2,7 @@
 	export let showModal: Boolean;
 	import { projectPageData } from '$lib/data/project-data';
 	import { writable } from 'svelte/store';
+	import Carousel from './Carousel.svelte';
 
 	let projectContent: any = writable({});
 
@@ -24,20 +25,28 @@
 	on:click|self={() => dialog.close()}
 >
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
-	<div on:click|stopPropagation class="w-screen h-screen">
+	<div
+		on:click|stopPropagation
+		class="flex flex-col max-w-screen h-screen justify-around dark:bg-gray-600"
+	>
 		<div class="absolute top-2 right-4" on:click={() => dialog.close()}>
 			<button>X</button>
 		</div>
-		<h1>
+		<h1
+			class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
+		>
 			{$projectContent.title}
 			<hr />
 		</h1>
+		<Carousel />
 		<hr />
 		<p>{$projectContent.description}</p>
 		<hr />
 		<p>{$projectContent.stack}</p>
 		<!-- svelte-ignore a11y-autofocus -->
-		<button autofocus on:click={() => dialog.close()}>back to projects</button>
+		<div>
+			<button autofocus on:click={() => dialog.close()}>back to projects</button>
+		</div>
 	</div>
 </dialog>
 
