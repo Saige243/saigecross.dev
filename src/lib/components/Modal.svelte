@@ -24,7 +24,10 @@
 	on:click|self={() => dialog.close()}
 >
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
-	<div on:click|stopPropagation class="w-96 h-96">
+	<div on:click|stopPropagation class="w-screen h-screen">
+		<div class="absolute top-2 right-4" on:click={() => dialog.close()}>
+			<button>X</button>
+		</div>
 		<h1>
 			{$projectContent.title}
 			<hr />
@@ -40,7 +43,6 @@
 
 <style>
 	dialog {
-		max-width: 32em;
 		border-radius: 0.2em;
 		border: none;
 		padding: 0;
