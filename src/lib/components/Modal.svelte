@@ -2,7 +2,6 @@
 	export let showModal: Boolean;
 	import { projectPageData } from '$lib/data/project-data';
 	import { writable } from 'svelte/store';
-	import Carousel from './Carousel.svelte';
 
 	let projectContent: any = writable({});
 
@@ -23,6 +22,7 @@
 	bind:this={dialog}
 	on:close={() => (showModal = false)}
 	on:click|self={() => dialog.close()}
+	class="px-40"
 >
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div
@@ -38,14 +38,15 @@
 			{$projectContent.title}
 			<hr />
 		</h1>
-		<Carousel />
+		<div class="flex place-content-center">
+			<img src="https://picsum.photos/800/600?grayscale&random=1" alt={$projectContent.title} />
+		</div>
 		<hr />
 		<p class="dark:text-white">{$projectContent.description}</p>
 		<hr />
 		<p class="dark:text-white">{$projectContent.stack}</p>
-		<!-- svelte-ignore a11y-autofocus -->
 		<div>
-			<button autofocus on:click={() => dialog.close()} class="dark:text-white"
+			<button on:click={() => dialog.close()} class="dark:text-white"
 				>&larr; back to projects</button
 			>
 		</div>
@@ -56,13 +57,9 @@
 	dialog {
 		border-radius: 0.2em;
 		border: none;
-		padding: 0;
 	}
 	dialog::backdrop {
 		background: rgba(0, 0, 0, 0.3);
-	}
-	dialog > div {
-		padding: 1em;
 	}
 	dialog[open] {
 		animation: zoom 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
