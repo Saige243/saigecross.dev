@@ -1,5 +1,17 @@
 <script lang="ts">
 	const { title, description, image, stack, handleModalClick } = $$props;
+	import { stackData } from '$lib/data/stack-data';
+	import ProjectTechBadge from './ProjectTechBadge.svelte';
+
+	let stackDataArr: any = [];
+
+	$: stack.map((item: string) => {
+		stackData.map((stackItem) => {
+			if (item === stackItem.title) {
+				stackDataArr.push(stackItem);
+			}
+		});
+	});
 </script>
 
 <a
@@ -17,12 +29,10 @@
 				{description}
 			</p>
 		</div>
-		<div class="flex flex-wrap">
-			{#each stack as item}
-				<div
-					class="hidden w-fit sm:flex bg-purple-800 rounded-xl p-1 m-1 text-center place-items-center content-center justify-center"
-				>
-					<span class="text-white text-xs text-center px-1">{item}</span>
+		<div class="flex flex-row space-x-2">
+			{#each stackDataArr as stack}
+				<div class="w-6 h-6">
+					<ProjectTechBadge {stack} />
 				</div>
 			{/each}
 		</div>

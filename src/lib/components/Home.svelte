@@ -1,5 +1,10 @@
 <script>
 	import TechBadge from './TechBadge.svelte';
+	import { stackData } from '$lib/data/stack-data';
+
+	const stackDataArr = stackData;
+
+	$: console.log('home stackData', stackData);
 </script>
 
 <div class="flex h-screen flex-col space-y-12 text-center px-4 pr-12 mx-auto w-full">
@@ -20,7 +25,9 @@
 	</div>
 	<div class="flex justify-center">
 		<div class="grid grid-cols-3 grid-rows-6 lg:grid lg:grid-cols-6 lg:grid-rows-3 lg:w-3/4">
-			<TechBadge />
+			{#each stackDataArr as stack}
+				<TechBadge {stack} />
+			{/each}
 		</div>
 	</div>
 </div>
