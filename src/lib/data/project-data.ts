@@ -9,7 +9,8 @@ export const projectData = [
 	},
 	{
 		title: 'Maisie Cross Designs',
-		description: 'A portfolio site for UX/UI designer.',
+		description:
+			'A portfolio site for UX/UI designer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl.',
 		image: 'https://picsum.photos/200/300',
 		link: 'https://www.google.com',
 		stack: ['Typescript', 'NextJs', 'Node', 'TailwindCSS']

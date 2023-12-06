@@ -17,10 +17,10 @@
 <a
 	href={''}
 	on:click={() => handleModalClick(title)}
-	class="flex flex-col justify-between p-4 sm:p-4 h-full bg-white border border-gray-200 rounded-lg shadow-xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 cursor-pointer"
+	class="flex flex-col p-4 sm:p-4 bg-white border border-gray-200 rounded-lg shadow-xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 cursor-pointer"
 >
 	<div class="flex space-x-2">
-		<div class="bg-slate-300 w-32">
+		<div class="w-[200px]">
 			<img src="https://picsum.photos/800/600?grayscale&random=1" alt="pic" />
 		</div>
 

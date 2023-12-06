@@ -13,30 +13,28 @@
 	}
 </script>
 
-<div class="h-full">
-	<div class="w-screen md:w-full px-4 md:px-0">
-		<div class="pb-4 text-center">
-			<h1
-				class="mb-4 font-extrabold tracking-tight leading-none text-gray-900 text-3xl md:text-5xl lg:text-6xl dark:text-white"
-			>
-				Projects.
-			</h1>
-			<h2
-				class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-blue-800 md:text-4xl lg:text-5xl dark:text-white"
-			>
-				Stuff I've built.
-			</h2>
-		</div>
+<div class="flex flex-col md:flex-row w-screen md:w-full h-full">
+	<div class="text-center md:text-left flex flex-col pb-4">
+		<h1
+			class="mb-4 font-extrabold tracking-tight leading-none text-gray-900 text-3xl md:text-5xl lg:text-6xl dark:text-white"
+		>
+			Projects.
+		</h1>
+		<h2
+			class="mb-4 text-2xl font-extrabold tracking-tight leading-none text-blue-800 md:text-4xl lg:text-5xl dark:text-white"
+		>
+			Stuff I've built.
+		</h2>
+	</div>
 
-		<Modal bind:showModal {projectContent} />
+	<Modal bind:showModal {projectContent} />
 
-		<div class="flex flex-row sm:h-[600px] flex-wrap">
-			{#each projectData as project}
-				<div class="p-2 md:p-4 w-full sm:w-1/2">
-					<ProjectCard {...project} {handleModalClick} />
-				</div>
-			{/each}
-		</div>
+	<div class="flex flex-col px-20 justify-right">
+		{#each projectData as project}
+			<div class="p-2 md:p-4">
+				<ProjectCard {...project} {handleModalClick} />
+			</div>
+		{/each}
 	</div>
 </div>
 
