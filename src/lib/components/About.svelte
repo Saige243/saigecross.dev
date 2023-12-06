@@ -1,4 +1,6 @@
-<script>
+<script lang="ts">
+	import JobHistoryBlock from './JobHistoryBlock.svelte';
+	import { jobHistoryData } from '../data/project-data';
 </script>
 
 <div>
@@ -12,11 +14,9 @@
 	>
 		Some stuff about me.
 	</h2>
-	<p class="text-2xl">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, assumenda repudiandae! Neque enim
-		vitae, modi suscipit rem odio magnam delectus in ea et laudantium blanditiis amet, ratione
-		architecto numquam minus.
-	</p>
+	{#each jobHistoryData as jobHistory}
+		<JobHistoryBlock {...jobHistory} />
+	{/each}
 </div>
 
 <style></style>
