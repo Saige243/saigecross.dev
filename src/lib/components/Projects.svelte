@@ -32,7 +32,7 @@
 
 		<div class="flex flex-row sm:h-[600px] flex-wrap">
 			{#each projectData as project}
-				<div class="p-2 w-full sm:w-1/2">
+				<div class="p-2 md:p-4 w-full sm:w-1/2">
 					<ProjectCard {...project} {handleModalClick} />
 				</div>
 			{/each}
