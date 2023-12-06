@@ -30,7 +30,7 @@
 
 		<Modal bind:showModal {projectContent} />
 
-		<div class="flex flex-row h-[600px] flex-wrap">
+		<div class="flex flex-row sm:h-[600px] flex-wrap">
 			{#each projectData as project}
 				<div class="p-2 w-full sm:w-1/2">
 					<ProjectCard {...project} {handleModalClick} />
@@ -39,10 +39,6 @@
 		</div>
 	</div>
 </div>
-
-<!-- </div> -->
-
-<!-- </div> -->
 
 <style>
 </style>

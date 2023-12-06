@@ -20,7 +20,7 @@ export const projectData = [
 			'A finance game focused on providing a fun way to save money and celebrate small wins (with coffee).',
 		image: 'https://picsum.photos/200/300',
 		link: 'https://www.google.com',
-		stack: ['Typescript', 'Svelte', 'TailwindCSS']
+		stack: ['Typescript', 'React', 'TailwindCSS']
 	},
 	{
 		title: '(This Site)',
@@ -28,7 +28,7 @@ export const projectData = [
 			'BookBud is a fully-functional CRUD book review app that allows users to search for books and leave reviews.',
 		image: 'https://picsum.photos/200/300',
 		link: 'https://www.google.com',
-		stack: ['Typescript', 'React', 'Node', 'Express', 'MongoDB', 'TailwindCSS']
+		stack: ['Typescript', 'Svelte', 'Node', 'TailwindCSS']
 	}
 ];
 
