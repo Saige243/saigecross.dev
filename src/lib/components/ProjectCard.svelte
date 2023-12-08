@@ -17,7 +17,7 @@
 <a
 	href={''}
 	on:click={() => handleModalClick(title)}
-	class=" flex flex-col p-4 sm:p-4 bg-white border border-gray-200 rounded-lg shadow-xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 cursor-pointer"
+	class=" flex flex-col p-4 sm:p-4 bg-white border border-gray-200 rounded-lg shadow-xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 cursor-pointer max-h-[180px]"
 >
 	<div class="flex space-x-2">
 		<div class="w-[200px]">
@@ -26,12 +26,12 @@
 
 		<div class="flex flex-col px-6">
 			<h5
-				class="mb-2 text-lg md:text-2xl lg:text-3xl font-bold tracking-tight text-gray-900 dark:text-white"
+				class="mb-2 text-lg md:text-2xl xl:text-3xl font-bold tracking-tight text-gray-900 dark:text-white"
 			>
 				{title}
 			</h5>
 			<div>
-				<span class="text-xs md:text-sm lg:text-base block text-gray-700 dark:text-gray-400 pb-2">
+				<span class="text-xs sm:text-sm xl:text-base block text-gray-700 dark:text-gray-400 pb-2">
 					{description}
 				</span>
 			</div>

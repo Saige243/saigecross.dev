@@ -14,14 +14,14 @@
 </script>
 
 <div class="flex flex-col md:flex-row w-screen md:w-full h-full">
-	<div class="text-center md:text-left flex flex-col pb-4">
+	<div class="hidden text-center lg:text-left lg:flex md:flex-col pb-4">
 		<h1
-			class="mb-4 font-extrabold tracking-tight leading-none text-gray-900 text-4xl lg:text-5xl xl:text-6xl dark:text-white"
+			class="font-extrabold tracking-tight leading-none text-gray-900 text-4xl lg:text-5xl xl:text-5xl dark:text-white"
 		>
-			Projects.
+			Projects &rarr;
 		</h1>
 		<h2
-			class="hidden md:flex mb-4 text-2xl font-extrabold tracking-tight leading-none text-blue-800 md:text-3xl lg:text-4xl xl:text-5xl dark:text-white"
+			class="hidden md:flex mb-4 text-2xl font-extrabold tracking-tight leading-none text-blue-800 md:text-3xl lg:text-4xl xl:text-4xl dark:text-blue-200"
 		>
 			Stuff I've built.
 		</h2>
@@ -29,7 +29,7 @@
 
 	<Modal bind:showModal {projectContent} />
 
-	<div class="flex flex-col sm:px-8 md:px-20 justify-right">
+	<div class="flex flex-col lg:px-20 justify-right">
 		{#each projectData as project}
 			<div class="p-2 md:p-4">
 				<ProjectCard {...project} {handleModalClick} />

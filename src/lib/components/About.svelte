@@ -10,7 +10,7 @@
 		About.
 	</h1>
 	<h2
-		class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white"
+		class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-4xl text-blue-800 lg:text-5xl dark:text-blue-200"
 	>
 		Some stuff about me.
 	</h2>
