@@ -13,7 +13,7 @@
 	}
 </script>
 
-<div class="flex flex-col md:flex-row w-screen md:w-full h-full">
+<div class="flex flex-col md:flex-row w-screen md:w-full h-screen">
 	<div class="hidden text-center lg:text-left lg:flex md:flex-col pb-4">
 		<h1
 			class="font-extrabold tracking-tight leading-none text-gray-900 text-4xl lg:text-5xl xl:text-5xl dark:text-white"
