@@ -44,9 +44,6 @@
 	<section id="about" class="py-12">
 		<About />
 	</section>
-	<!-- <section id="contact" class="py-12">
-		<Contact />
-	</section> -->
 </article>
 
 <style>

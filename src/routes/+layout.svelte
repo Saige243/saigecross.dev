@@ -13,12 +13,4 @@
 		--navbar-width: 100px;
 		overflow-y: hidden;
 	}
-	.scroller {
-		height: 100vh;
-		overflow-y: scroll;
-		scroll-snap-type: y mandatory;
-	}
-	.scroller section {
-		scroll-snap-align: start;
-	}
 </style>
