@@ -1,5 +1,5 @@
 <script lang="ts">
-	const { title, description, image, stack, handleModalClick } = $$props;
+	const { title, description, stack, handleModalClick } = $$props;
 	import { stackData } from '$lib/data/stack-data';
 	import ProjectTechBadge from './ProjectTechBadge.svelte';
 
@@ -17,7 +17,7 @@
 <a
 	href={''}
 	on:click={() => handleModalClick(title)}
-	class="flex flex-col p-4 sm:p-4 bg-white border border-gray-200 rounded-lg shadow-xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 cursor-pointer"
+	class=" flex flex-col p-4 sm:p-4 bg-white border border-gray-200 rounded-lg shadow-xl hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 cursor-pointer"
 >
 	<div class="flex space-x-2">
 		<div class="w-[200px]">
@@ -25,13 +25,15 @@
 		</div>
 
 		<div class="flex flex-col px-6">
-			<h5 class="mb-2 text-2xl lg:text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
+			<h5
+				class="mb-2 text-lg md:text-2xl lg:text-3xl font-bold tracking-tight text-gray-900 dark:text-white"
+			>
 				{title}
 			</h5>
 			<div>
-				<p class="text-sm lg:text-base block text-gray-700 dark:text-gray-400 pb-2">
+				<span class="text-xs md:text-sm lg:text-base block text-gray-700 dark:text-gray-400 pb-2">
 					{description}
-				</p>
+				</span>
 			</div>
 		</div>
 	</div>
