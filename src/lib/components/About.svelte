@@ -3,7 +3,7 @@
 	import { jobHistoryData } from '../data/project-data';
 </script>
 
-<div class="flex flex-col w-screen md:w-full h-screen">
+<div class="flex flex-col w-screen md:w-full h-fit pt-12">
 	<div class="text-center md:text-left">
 		<h1
 			class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"

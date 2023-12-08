@@ -17,4 +17,5 @@ section {
 }
 .scroller section {
 	scroll-snap-align: start;
+	/* margin-bottom: 24vh; */
 }

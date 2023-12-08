@@ -5,7 +5,7 @@
 	const stackDataArr = stackData;
 </script>
 
-<div class="flex h-screen flex-col md:space-y-12 text-center px-4 mx-auto w-screen sm:w-full">
+<div class="flex h-fit flex-col md:space-y-12 text-center px-4 mx-auto w-screen sm:w-full">
 	<div>
 		<h1
 			class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
