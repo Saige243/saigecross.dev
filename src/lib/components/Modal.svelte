@@ -22,33 +22,36 @@
 	bind:this={dialog}
 	on:close={() => (showModal = false)}
 	on:click|self={() => dialog.close()}
-	class="md:px-40"
+	class="px-4 sm:px-8 md:px-24 lg:px-40 dark:bg-gray-600 py-12"
 >
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
-	<div
-		on:click|stopPropagation
-		class="flex flex-col max-w-screen h-screen justify-around dark:bg-gray-600 p-2"
-	>
+	<div on:click|stopPropagation class="flex flex-col max-w-fit h-full p-2">
 		<div class="absolute top-2 right-4" on:click={() => dialog.close()}>
 			<button>&#x2715;</button>
 		</div>
-		<h1
-			class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
-		>
-			{$projectContent.title}
-			<hr />
-		</h1>
-		<div class="flex place-content-center">
-			<img src="https://picsum.photos/800/600?grayscale&random=1" alt={$projectContent.title} />
-		</div>
-		<hr />
-		<p class="dark:text-white">{$projectContent.description}</p>
-		<hr />
-		<p class="dark:text-white">{$projectContent.stack}</p>
-		<div>
-			<button on:click={() => dialog.close()} class="dark:text-white"
-				>&larr; back to projects</button
+		<div class="mb-12">
+			<h1
+				class="text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
 			>
+				{$projectContent.title}
+				<hr />
+			</h1>
+		</div>
+		<div class="md:flex space-x-2 space-y-2">
+			<div class="flex place-content-center md:w-1/2">
+				<img src="https://picsum.photos/800/600?grayscale&random=1" alt={$projectContent.title} />
+			</div>
+			<hr />
+			<div class="md:w-1/2 text-wrap">
+				<p class="dark:text-white py-8">{$projectContent.description}</p>
+				<p class="dark:text-white">{$projectContent.stack}</p>
+				<hr />
+				<div>
+					<button on:click={() => dialog.close()} class="dark:text-white"
+						>&larr; back to projects</button
+					>
+				</div>
+			</div>
 		</div>
 	</div>
 </dialog>
