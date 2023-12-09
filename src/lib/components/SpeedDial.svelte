@@ -10,14 +10,14 @@
 	};
 </script>
 
-<SpeedDial defaultClass="absolute sm:hidden end-6 bottom-6 bg-blue-400 p-3 rounded-full z-10">
-	<SpeedDialButton name="Home" class="p-2 my-1" on:click={() => handleClick('home')}>
+<SpeedDial defaultClass="absolute sm:hidden bg-blue-400 end-6 bottom-6 p-4 rounded-full z-10">
+	<SpeedDialButton class="p-2 my-1" on:click={() => handleClick('home')}>
 		<HomeSolid class="w-5 h-5" />
 	</SpeedDialButton>
-	<SpeedDialButton name="Projects" class="p-2 my-1" on:click={() => handleClick('projects')}>
+	<SpeedDialButton class="p-2 my-1" on:click={() => handleClick('projects')}>
 		<ArchiveSolid class="w-5 h-5" />
 	</SpeedDialButton>
-	<SpeedDialButton name="About" class="p-2 my-1 mb-3" on:click={() => handleClick('about')}>
+	<SpeedDialButton class="p-2 my-1 mb-3" on:click={() => handleClick('about')}>
 		<UserSolid class="w-5 h-5" />
 	</SpeedDialButton>
 </SpeedDial>
