@@ -10,7 +10,6 @@
 		{ name: 'Home', id: 'home' },
 		{ name: 'Projects', id: 'projects' },
 		{ name: 'About', id: 'about' }
-		// { name: 'Contact', id: 'contact' }
 	]);
 
 	const socials = writable([
@@ -39,7 +38,7 @@
 
 	export const currentPage = writable('home');
 
-	function scrollToSection(id: string) {
+	export function scrollToSection(id: string) {
 		currentPage.set(id);
 		const el = document.getElementById(id);
 		el?.scrollIntoView({ behavior: 'smooth' });

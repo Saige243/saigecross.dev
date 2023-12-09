@@ -2,7 +2,6 @@
 	import Home from '$lib/components/Home.svelte';
 	import Projects from '$lib/components/Projects.svelte';
 	import About from '$lib/components/About.svelte';
-	import Contact from '$lib/components/Contact.svelte';
 	import { onMount } from 'svelte';
 	import { scrolledSection } from '$lib/stores';
 
@@ -15,6 +14,8 @@
 					if (entry.isIntersecting) {
 						const sectionId = entry.target.id;
 						scrolledSection.set(sectionId);
+						const el = document.getElementById(sectionId);
+						el?.scrollIntoView({ behavior: 'smooth' });
 					}
 				});
 			},
