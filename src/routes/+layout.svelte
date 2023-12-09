@@ -3,12 +3,19 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 	import SpeedDial from '$lib/components/SpeedDial.svelte';
 
+	import { onMount } from 'svelte';
 	import { theme } from '$lib/theme';
 
-	$: {
-		const currentTheme = $theme;
+	let loaded = false;
 
-		const themeColor = currentTheme === 'light' ? 'rgb(191 219 254)' : '#2c3e50';
+	onMount(() => {
+		window.onload = () => {
+			loaded = true;
+		};
+	});
+
+	$: if (loaded) {
+		const themeColor = $theme === 'light' ? 'rgb(191 219 254)' : '#2c3e50';
 		const metaTag = document.querySelector('meta[name="theme-color"]');
 		if (metaTag) {
 			metaTag.setAttribute('content', themeColor);
