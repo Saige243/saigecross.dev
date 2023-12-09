@@ -35,7 +35,7 @@
 	<meta name="description" content="saigecross.dev" />
 </svelte:head>
 
-<article bind:this={scroller} class="scroller">
+<article bind:this={scroller} class="scroller h-screen">
 	<section id="home" class="pt-6 md:pt-12 mb-40 xs:sm:mb-0">
 		<Home />
 	</section>
@@ -49,7 +49,7 @@
 
 <style>
 	section {
-		height: 100vh;
+		/* height: 100%; */
 		width: calc(100% - var(--navbar-width));
 	}
 </style>
