@@ -3,8 +3,18 @@
 	import { scrolledSection } from '$lib/stores';
 	import Toggle from '$lib/components/Toggle.svelte';
 	import Github from '$lib/assets/github.svg';
+	import GithubWhite from '$lib/assets/githubWhite.svg';
 	import Twitter from '$lib/assets/twitter.svg';
+	import TwitterWhite from '$lib/assets/twitterWhite.svg';
 	import LinkedIn from '$lib/assets/linkedin.svg';
+	import LinkedInWhite from '$lib/assets/linkedinWhite.svg';
+	import { theme } from '$lib/theme';
+
+	type Social = {
+		name: string;
+		url: string;
+		icon: string;
+	};
 
 	const pages = writable([
 		{ name: 'Home', id: 'home' },
@@ -12,23 +22,27 @@
 		{ name: 'About', id: 'about' }
 	]);
 
-	const socials = writable([
-		{
-			name: 'Github',
-			url: 'https://github.com/saige243',
-			icon: Github
-		},
-		{
-			name: 'Twitter',
-			url: 'https://twitter.com/The_Commodore0',
-			icon: Twitter
-		},
-		{
-			name: 'LinkedIn',
-			url: 'https://www.linkedin.com/in/saige-cross-8b3976241/',
-			icon: LinkedIn
-		}
-	]);
+	const socials = writable<Social[]>([]);
+
+	$: {
+		socials.set([
+			{
+				name: 'Github',
+				url: 'https://github.com/saige243',
+				icon: $theme === 'light' ? Github : GithubWhite
+			},
+			{
+				name: 'Twitter',
+				url: 'https://twitter.com/The_Commodore0',
+				icon: $theme === 'light' ? Twitter : TwitterWhite
+			},
+			{
+				name: 'LinkedIn',
+				url: 'https://www.linkedin.com/in/saige-cross-8b3976241/',
+				icon: $theme === 'light' ? LinkedIn : LinkedInWhite
+			}
+		]);
+	}
 
 	$: {
 		if ($scrolledSection) {
