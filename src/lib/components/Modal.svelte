@@ -2,6 +2,7 @@
 	export let showModal: Boolean;
 	import { projectPageData } from '$lib/data/project-data';
 	import { writable } from 'svelte/store';
+	import ExternalLink from '$lib/assets/externalLink.svg';
 
 	let projectContent: any = writable({});
 
@@ -37,18 +38,26 @@
 				<hr />
 			</h1>
 		</div>
-		<div class="md:flex space-x-2 space-y-2">
+		<div class="md:flex justify-between space-x-2 space-y-2">
 			<div class="flex place-content-center md:w-1/2">
 				<img src="https://picsum.photos/800/600?grayscale&random=1" alt={$projectContent.title} />
 			</div>
 			<hr />
-			<div class="md:w-1/2 text-wrap">
+			<div class="flex flex-col md:w-1/2 text-wrap justify-center">
 				<p class="dark:text-white py-8">{$projectContent.description}</p>
+				<a
+					href={$projectContent.link}
+					target="_blank"
+					class="flex justify-between w-1/2 bg-blue-500 text-white py-2 mb-8 px-4 rounded hover:bg-blue-700 transition-colors duration-200 text-center"
+				>
+					Take me to {$projectContent.title}!
+					<img src={ExternalLink} alt="external link" class="w-4" />
+				</a>
 				{#if Array.isArray($projectContent.stack)}
 					<p>{$projectContent.stack.join(', ')}</p>
 				{/if}
 				<hr />
-				<div>
+				<div class="pt-8">
 					<button on:click={() => dialog.close()} class="dark:text-white"
 						>&larr; back to projects</button
 					>
