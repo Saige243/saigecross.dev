@@ -7,6 +7,7 @@
 	import { theme } from '$lib/theme';
 
 	let loaded = false;
+	let themeColor = '';
 
 	onMount(() => {
 		window.onload = () => {
@@ -15,7 +16,7 @@
 	});
 
 	$: if (loaded) {
-		const themeColor = $theme === 'light' ? 'rgb(191 219 254)' : '#2c3e50';
+		themeColor = $theme === 'light' ? '#C5DDDA' : '#024539';
 		const metaTag = document.querySelector('meta[name="theme-color"]');
 		if (metaTag) {
 			metaTag.setAttribute('content', themeColor);
@@ -23,7 +24,10 @@
 	}
 </script>
 
-<div class="flex w-screen h-screen bg-blue-200 dark:bg-primary lg:px-30 2xl:px-48">
+<div
+	class="font-scp flex w-screen h-screen lg:px-30 2xl:px-48"
+	style="background-color: {themeColor}"
+>
 	<Navbar />
 	<SpeedDial />
 	<slot />
