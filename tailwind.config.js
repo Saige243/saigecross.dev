@@ -15,7 +15,8 @@ export default {
 				textDark: '#C5DDDA',
 				bg: '#C5DDDA',
 				bgDark: '#024539',
-				scYellow: '#F1FF46'
+				scYellow: '#F1FF46',
+				cardGreen: '#042A29'
 			}
 		}
 	},

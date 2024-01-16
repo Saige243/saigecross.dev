@@ -13,15 +13,15 @@
 	}
 </script>
 
-<div class="flex flex-col md:flex-row w-screen md:w-full h-screen pt-6">
-	<div class="text-center lg:text-left lg:flex md:flex-col pb-4">
+<div class="flex flex-col w-screen md:w-full h-screen pt-6">
+	<div class="text-center lg:text-left lg:flex md:flex-col pb-4 lg:px-20">
 		<h1
-			class="pb-2 sm:pb-0 font-extrabold tracking-tight leading-none text-gray-900 text-4xl lg:text-5xl xl:text-5xl dark:text-white"
+			class="pb-2 sm:pb-0 font-extrabold tracking-tight leading-none text-4xl lg:text-5xl xl:text-5xl text-scYellow"
 		>
-			Projects &rarr;
+			Projects
 		</h1>
 		<h2
-			class="md:flex mb-4 text-2xl font-extrabold tracking-tight leading-none text-blue-800 md:text-3xl lg:text-4xl xl:text-4xl dark:text-blue-200"
+			class="md:flex text-2xl font-extrabold tracking-tight leading-none text-text dark:text-textDark md:text-3xl"
 		>
 			Stuff I've built.
 		</h2>
@@ -31,7 +31,7 @@
 
 	<div class="flex flex-col lg:px-20 justify-right">
 		{#each projectData as project}
-			<div class="p-2 md:p-4">
+			<div class="py-2">
 				<ProjectCard {...project} {handleModalClick} />
 			</div>
 		{/each}
