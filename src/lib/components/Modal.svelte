@@ -44,7 +44,9 @@
 			<hr />
 			<div class="md:w-1/2 text-wrap">
 				<p class="dark:text-white py-8">{$projectContent.description}</p>
-				<p class="dark:text-white">{$projectContent.stack}</p>
+				{#if Array.isArray($projectContent.stack)}
+					<p>{$projectContent.stack.join(', ')}</p>
+				{/if}
 				<hr />
 				<div>
 					<button on:click={() => dialog.close()} class="dark:text-white"

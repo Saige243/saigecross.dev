@@ -40,7 +40,7 @@ export const projectPageData = [
 			'BookBud is a fully-functional CRUD book review app that allows users to search for books and leave reviews. Built as a response to the lack of a good book review app that allows users to search for books and leave reviews, BB seeks to implement a number of design and functionality improvements I saw as lacking in other popular book applications.',
 		image: 'https://picsum.photos/200/300',
 		link: 'https://github.com/Saige243/BookBud',
-		stack: ['Typescript', 'React', 'Node', 'Express', 'MongoDB', 'TailwindCSS']
+		stack: ['Typescript', 'React', 'Express', 'MongoDB', 'TailwindCSS']
 	},
 	{
 		title: 'Maisie Cross Designs',
