@@ -11,8 +11,11 @@ export default {
 				scp: ['Source Code Pro', ...defaultTheme.fontFamily.sans]
 			},
 			colors: {
-				primary: '#2c3e50',
-				secondary: '#e74c3c'
+				text: '#042A29',
+				textDark: '#C5DDDA',
+				bg: '#C5DDDA',
+				bgDark: '#024539',
+				scYellow: '#F1FF46'
 			}
 		}
 	},

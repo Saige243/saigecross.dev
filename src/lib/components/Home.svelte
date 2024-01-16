@@ -8,16 +8,20 @@
 <div class="flex h-fit flex-col md:space-y-12 text-center px-4 mx-auto w-screen sm:w-full">
 	<div>
 		<h1
-			class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
+			class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-text dark:text-textDark md:text-5xl lg:text-6xl"
 		>
 			I'm Saige.
 		</h1>
-		<h2
-			class="mb-4 text-blue-800 text-2xl font-extrabold tracking-tight leading-none md:text-4xl lg:text-5xl dark:text-blue-200"
-		>
-			Fullstack Software Engineer.
-		</h2>
-		<p class="text-gray-700 dark:text-gray-400">
+		<div class="flex bg-scYellow mx-12 pt-2 justify-center text-center">
+			<div>
+				<h2
+					class="mb-4 text-bgDark text-2xl font-extrabold tracking-tight leading-none md:text-4xl lg:text-5xl text-center"
+				>
+					Fullstack Software Engineer.
+				</h2>
+			</div>
+		</div>
+		<p class="text-text dark:text-textDark xl:text-lg pt-2">
 			I love building things. Here are some of my favorite recent technologies:
 		</p>
 	</div>

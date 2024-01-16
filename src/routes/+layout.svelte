@@ -25,7 +25,7 @@
 </script>
 
 <div
-	class="font-scp flex w-screen h-screen lg:px-30 2xl:px-48"
+	class="font-scp flex w-screen h-screen lg:px-30 2xl:px-48 text-text dark:text-textDark"
 	style="background-color: {themeColor}"
 >
 	<Navbar />
