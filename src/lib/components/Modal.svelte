@@ -45,14 +45,24 @@
 			<hr />
 			<div class="flex flex-col md:w-1/2 text-wrap justify-center">
 				<p class="dark:text-white py-8">{$projectContent.description}</p>
-				<a
-					href={$projectContent.link}
-					target="_blank"
-					class="flex justify-between w-1/2 bg-blue-500 text-white py-2 mb-8 px-4 rounded hover:bg-blue-700 transition-colors duration-200 text-center"
-				>
-					Take me to {$projectContent.title}!
-					<img src={ExternalLink} alt="external link" class="w-4" />
-				</a>
+				<div class="flex space-x-2">
+					<a
+						href={$projectContent.link}
+						target="_blank"
+						class="flex justify-between w-1/2 bg-blue-500 text-white py-2 mb-8 px-4 rounded hover:bg-blue-700 transition-colors duration-200 text-center"
+					>
+						Check it out
+						<img src={ExternalLink} alt="external link" class="w-4" />
+					</a>
+					<a
+						href={$projectContent.ghLink}
+						target="_blank"
+						class="flex justify-between w-1/2 bg-blue-500 text-white py-2 mb-8 px-4 rounded hover:bg-blue-700 transition-colors duration-200 text-center"
+					>
+						Github repository
+						<img src={ExternalLink} alt="external link" class="w-4" />
+					</a>
+				</div>
 				{#if Array.isArray($projectContent.stack)}
 					<p>{$projectContent.stack.join(', ')}</p>
 				{/if}
