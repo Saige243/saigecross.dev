@@ -21,7 +21,7 @@
 			Projects
 		</h1>
 		<h2
-			class="md:flex text-2xl font-extrabold tracking-tight leading-none text-text dark:text-textDark md:text-3xl"
+			class="md:flex text-2xl font-extrabold tracking-tight pt-2 leading-none text-text dark:text-textDark md:text-3xl"
 		>
 			Stuff I've built.
 		</h2>

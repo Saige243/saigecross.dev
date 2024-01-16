@@ -2,7 +2,7 @@
 	const { time, company, description, role, stack } = $$props;
 </script>
 
-<div class="job-history-block p-4 mb-4">
+<div class="job-history-block py-4 mb-4">
 	<div class="font-bold text-lg mb-2 dark:text-blue-200">{time}</div>
 	<div class="text-white">
 		<p class="text-lg text-black dark:text-white font-bold">{company}</p>
