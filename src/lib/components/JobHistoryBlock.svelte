@@ -19,6 +19,6 @@
 	{#if company !== 'PLENTY Mercantile'}
 		<img src={Arrow} alt="arrow" class="h-20 w-2 justify-normal" />
 	{:else}
-		<div class="mb-76"></div>
+		<div class="pb-76"></div>
 	{/if}
 </div>

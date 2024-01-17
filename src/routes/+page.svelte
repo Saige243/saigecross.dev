@@ -46,7 +46,7 @@
 	<section id="resume" class="mt-48 mb-96 sm:pt-0">
 		<Resume />
 	</section>
-	<section id="about" class="mt-96 sm:pt-0">
+	<section id="about" class="sm:pt-0">
 		<About />
 	</section>
 </article>

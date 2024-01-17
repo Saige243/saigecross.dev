@@ -118,6 +118,28 @@
 			<button
 				id="click"
 				class="p-3 bg-white dark:bg-gray-400 rounded-full"
+				on:click={() => handleClick('resume')}
+				><svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				>
+					<rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+					<path d="M16 7V5a2 2 0 0 0-2-2H10a2 2 0 0 0-2 2v2"></path>
+					<line x1="12" y1="12" x2="12" y2="12"></line>
+				</svg>
+			</button>
+		</div>
+		<div>
+			<button
+				id="click"
+				class="p-3 bg-white dark:bg-gray-400 rounded-full"
 				on:click={() => handleClick('about')}
 				><svg
 					class="w-6 h-6 text-gray-800 dark:text-white"
