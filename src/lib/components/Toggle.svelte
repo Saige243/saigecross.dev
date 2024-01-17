@@ -13,7 +13,7 @@
 	<label class="relative inline-flex items-center cursor-pointer">
 		<input type="checkbox" bind:checked={isDarkMode} class="sr-only peer" on:change={toggleTheme} />
 		<div
-			class="w-12 h-6 bg-gray-300 peer-focus:outline-none rounded-full peer dark:bg-gray-900 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[3.5px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-gray-900"
+			class="w-12 h-6 bg-seafoam peer-focus:outline-none rounded-full peer dark:bg-gray-900 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[3.5px] after:bg-scYellow after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-seafoam"
 		>
 			<div class="mb-px">
 				<span class="ms-1 text-base text-gray-900 dark:text-gray-300">

@@ -7,7 +7,7 @@
 	<div class="text-center md:text-left">
 		<h1 class="mb-2 text-5xl font-extrabold tracking-tight leading-none text-scYellow">Resume.</h1>
 		<h2
-			class="mb-3 text-3xl font-extrabold tracking-tight leading-none md:text-3xl text-text dark:text-textDark"
+			class="mb-3 text-3xl font-extrabold tracking-tight leading-none text-text dark:text-textDark"
 		>
 			Where I've been.
 		</h2>
