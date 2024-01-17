@@ -12,8 +12,8 @@
 		>
 			I'm Saige.
 		</h1>
-		<div class="flex bg-scYellow mx-12 pt-2 justify-center text-center">
-			<div>
+		<div class="flex mx-12 pt-2 justify-center text-center">
+			<div class="bg-scYellow px-2 pt-2">
 				<h2
 					class="mb-4 text-bgDark text-2xl font-extrabold tracking-tight leading-none md:text-4xl lg:text-5xl text-center"
 				>

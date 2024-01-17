@@ -64,7 +64,7 @@
 					</a>
 				</div>
 				{#if Array.isArray($projectContent.stack)}
-					<p>{$projectContent.stack.join(', ')}</p>
+					<p class="text-black dark:text-white">{$projectContent.stack.join(', ')}</p>
 				{/if}
 				<hr />
 				<div class="pt-8">

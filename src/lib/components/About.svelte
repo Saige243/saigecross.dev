@@ -3,13 +3,13 @@
 
 <div class="flex flex-col w-screen md:w-full h-full pt-16 lg:px-20 min-h-screen">
 	<h2
-		class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-4xl lg:text-5xl text-scYellow"
+		class="mb-4 text-4xl text-center sm:text-left font-extrabold tracking-tight leading-none md:text-4xl lg:text-5xl text-scYellow"
 	>
 		About.
 	</h2>
-	<p class="text-3xl text-text dark:text-textDark">Stuff about me.</p>
+	<p class="text-3xl text-text dark:text-textDark text-center sm:text-left">Stuff about me.</p>
 
-	<div class="lg:flex space-x-6 items-center justify-center my-32">
+	<div class="lg:flex md:space-x-6 items-center justify-center sm:my-32">
 		<img
 			src="https://picsum.photos/800/600?grayscale&random=1"
 			alt="Portrait of me"
