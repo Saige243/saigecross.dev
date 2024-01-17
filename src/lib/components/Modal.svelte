@@ -28,7 +28,7 @@
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div on:click|stopPropagation class="flex flex-col max-w-fit h-fit p-2">
 		<div class="absolute top-2 right-4" on:click={() => dialog.close()}>
-			<button>&#x2715;</button>
+			<button class="dark:text-white">&#x2715;</button>
 		</div>
 		<div class="mb-12">
 			<h1
@@ -49,7 +49,7 @@
 					<a
 						href={$projectContent.link}
 						target="_blank"
-						class="flex justify-between w-1/2 bg-blue-500 text-white py-2 mb-8 px-4 rounded hover:bg-blue-700 transition-colors duration-200 text-center"
+						class="flex justify-between w-1/2 bg-seafoam text-white py-2 mb-8 px-4 rounded hover:opacity-80 transition-colors duration-200 text-center cursor-pointe text-sm lg:text-base"
 					>
 						Check it out
 						<img src={ExternalLink} alt="external link" class="w-4" />
@@ -57,7 +57,7 @@
 					<a
 						href={$projectContent.ghLink}
 						target="_blank"
-						class="flex justify-between w-1/2 bg-blue-500 text-white py-2 mb-8 px-4 rounded hover:bg-blue-700 transition-colors duration-200 text-center"
+						class="flex justify-between w-1/2 bg-seafoam text-white py-2 mb-8 px-4 rounded hover:opacity-80 transition-colors duration-200 text-center cursor-pointer text-sm lg:text-base"
 					>
 						Github repository
 						<img src={ExternalLink} alt="external link" class="w-4" />
@@ -68,7 +68,9 @@
 				{/if}
 				<hr />
 				<div class="pt-8">
-					<button on:click={() => dialog.close()} class="dark:text-white"
+					<button
+						on:click={() => dialog.close()}
+						class="dark:text-white hover:text-seafoam hover:dark:text-seafoam"
 						>&larr; back to projects</button
 					>
 				</div>

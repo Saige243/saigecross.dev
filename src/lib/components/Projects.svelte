@@ -13,7 +13,7 @@
 	}
 </script>
 
-<div class="flex flex-col w-screen md:w-full h-screen pt-6">
+<div class="flex flex-col w-screen md:w-full h-screen pt-16">
 	<div class="text-center lg:text-left lg:flex md:flex-col pb-4 lg:px-20">
 		<h1
 			class="pb-2 sm:pb-0 font-extrabold tracking-tight leading-none text-4xl lg:text-5xl xl:text-5xl text-scYellow"

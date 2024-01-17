@@ -17,7 +17,7 @@
 <a
 	href={''}
 	on:click={() => handleModalClick(title)}
-	class=" flex flex-col p-4 sm:p-4 bg-white dark:bg-cardGreen border rounded-lg shadow-xl hover:bg-gray-200 dark:border-cardGreen dark:hover:bg-gray-700 cursor-pointer max-h-[180px]"
+	class=" flex flex-col p-4 sm:p-4 bg-white dark:bg-cardGreen border rounded-lg shadow-xl dark:border-cardGreen hover:opacity-80 cursor-pointer max-h-[180px]"
 >
 	<div class="flex space-x-2">
 		<div class="w-[250px]">

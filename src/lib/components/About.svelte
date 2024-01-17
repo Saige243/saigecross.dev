@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="pt-16 flex flex-col w-screen md:w-full h-fit lg:px-20 min-h-screen">
+<div class="flex flex-col w-screen md:w-full h-full pt-16 lg:px-20 min-h-screen">
 	<h2
 		class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-4xl lg:text-5xl text-scYellow"
 	>

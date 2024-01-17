@@ -37,13 +37,13 @@
 </svelte:head>
 
 <article bind:this={scroller} class="scroller h-screen">
-	<section id="home" class="pt-6 md:pt-12 mb-40 xs:sm:mb-0">
+	<section id="home" class="mb-40 xs:sm:mb-0">
 		<Home />
 	</section>
-	<section id="projects" class="sm:pt-6 mb-32 sm:mb-0">
+	<section id="projects" class="mb-32 sm:mb-0">
 		<Projects />
 	</section>
-	<section id="resume" class="mt-48 mb-96 sm:pt-0">
+	<section id="resume" class="mt-48 h-fit sm:pt-0">
 		<Resume />
 	</section>
 	<section id="about" class="sm:pt-0">
