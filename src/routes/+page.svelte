@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Home from '$lib/components/Home.svelte';
 	import Projects from '$lib/components/Projects.svelte';
-	import About from '$lib/components/About.svelte';
+	import Resume from '$lib/components/Resume.svelte';
 	import { onMount } from 'svelte';
 	import { scrolledSection } from '$lib/stores';
 
@@ -42,8 +42,8 @@
 	<section id="projects" class="sm:pt-6 mb-32 sm:mb-0">
 		<Projects />
 	</section>
-	<section id="about" class="mt-48 sm:pt-0">
-		<About />
+	<section id="resume" class="mt-48 sm:pt-0">
+		<Resume />
 	</section>
 </article>
 

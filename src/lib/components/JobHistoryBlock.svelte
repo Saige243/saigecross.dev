@@ -16,5 +16,7 @@
 		<strong>Stack:</strong>
 		{stack}
 	</div>
-	<img src={Arrow} alt="arrow" class="h-20 w-2 justify-normal" />
+	{#if company !== 'PLENTY Mercantile'}
+		<img src={Arrow} alt="arrow" class="h-20 w-2 justify-normal" />
+	{/if}
 </div>

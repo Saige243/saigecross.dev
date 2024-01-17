@@ -19,7 +19,7 @@
 	const pages = writable([
 		{ name: 'Home', id: 'home' },
 		{ name: 'Projects', id: 'projects' },
-		{ name: 'About', id: 'about' }
+		{ name: 'Resume', id: 'resume' }
 	]);
 
 	const socials = writable<Social[]>([]);

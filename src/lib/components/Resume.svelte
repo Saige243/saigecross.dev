@@ -1,8 +1,6 @@
 <script lang="ts">
 	import JobHistoryBlock from './JobHistoryBlock.svelte';
 	import { jobHistoryData } from '../data/project-data';
-	import Arrow from '$lib/assets/arrow.svg';
-	import { assets } from '$app/paths';
 </script>
 
 <div class="flex flex-col w-screen md:w-full h-fit pt-12 lg:px-20">

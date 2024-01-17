@@ -88,5 +88,13 @@ export const jobHistoryData = [
 		description:
 			"Fanwave is a startup focused on music venue discovery. I was hired as a junior software engineer to help build out the company's web app. I worked on a number of features, including a custom map component, a custom carousel component, and a custom search component. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation.",
 		stack: ['Typescript', ' React', ' Node', ' Express', ' MongoDB']
+	},
+	{
+		company: 'PLENTY Mercantile',
+		role: 'Chief Operating Officer',
+		time: '7/2019 - 4/2022',
+		description:
+			"PLENTY Mercantile is a startup focused on music venue discovery. I was hired as a junior software engineer to help build out the company's web app. I worked on a number of features, including a custom map component, a custom carousel component, and a custom search component. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation.",
+		stack: ['Typescript', ' React', ' Node', ' Express', ' MongoDB']
 	}
 ];
