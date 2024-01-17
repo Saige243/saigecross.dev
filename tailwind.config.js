@@ -16,7 +16,8 @@ export default {
 				bg: '#C5DDDA',
 				bgDark: '#024539',
 				scYellow: '#F1FF46',
-				cardGreen: '#042A29'
+				cardGreen: '#042A29',
+				seafoam: '#03A981'
 			}
 		}
 	},

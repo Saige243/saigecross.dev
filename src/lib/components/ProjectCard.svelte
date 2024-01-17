@@ -25,9 +25,7 @@
 		</div>
 
 		<div class="flex flex-col px-6">
-			<h5
-				class="mb-1 text-lg md:text-2xl xl:text-3xl font-bold tracking-tight text-gray-900 dark:text-white"
-			>
+			<h5 class="mb-1 text-lg md:text-2xl xl:text-3xl font-bold tracking-tight text-seafoam">
 				{title}
 			</h5>
 			<div>

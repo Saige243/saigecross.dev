@@ -1,15 +1,17 @@
 <script lang="ts">
 	import JobHistoryBlock from './JobHistoryBlock.svelte';
 	import { jobHistoryData } from '../data/project-data';
+	import Arrow from '$lib/assets/arrow.svg';
+	import { assets } from '$app/paths';
 </script>
 
 <div class="flex flex-col w-screen md:w-full h-fit pt-12 lg:px-20">
 	<div class="text-center md:text-left">
-		<h1 class="mb-2 text-5xl font-extrabold tracking-tight leading-none text-scYellow">About.</h1>
+		<h1 class="mb-2 text-5xl font-extrabold tracking-tight leading-none text-scYellow">Resume.</h1>
 		<h2
 			class="mb-3 text-3xl font-extrabold tracking-tight leading-none md:text-3xl text-text dark:text-textDark"
 		>
-			Some stuff about me.
+			Where I've been.
 		</h2>
 	</div>
 	{#each jobHistoryData as jobHistory}

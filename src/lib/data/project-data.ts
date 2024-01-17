@@ -74,19 +74,19 @@ export const projectPageData = [
 
 export const jobHistoryData = [
 	{
-		company: 'Fanwave.io',
-		role: 'Junior Software Engineer',
-		time: '4/2022 - 8/2022',
-		description:
-			"Fanwave is a startup focused on music venue discovery. I was hired as a junior software engineer to help build out the company's web app. I worked on a number of features, including a custom map component, a custom carousel component, and a custom search component. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation.",
-		stack: ['Typescript', ' React', ' Node', ' Express', ' MongoDB']
-	},
-	{
 		company: 'Of Ash And Fire',
 		role: 'Software Engineer',
 		time: '8/2022 - Current',
 		description:
 			"Of Ash And Fire is software agency that specializes in creating custom web applications for businesses. I was hired as a software engineer to help build out the company's web app. I worked on a number of features, including a custom map component, a custom carousel component, and a custom search component. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation.",
 		stack: ['Typescript', ' React', ' React Native', ' Node', ' Express', ' MongoDB', ' Rails']
+	},
+	{
+		company: 'Fanwave.io',
+		role: 'Junior Software Engineer',
+		time: '4/2022 - 8/2022',
+		description:
+			"Fanwave is a startup focused on music venue discovery. I was hired as a junior software engineer to help build out the company's web app. I worked on a number of features, including a custom map component, a custom carousel component, and a custom search component. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation.",
+		stack: ['Typescript', ' React', ' Node', ' Express', ' MongoDB']
 	}
 ];
