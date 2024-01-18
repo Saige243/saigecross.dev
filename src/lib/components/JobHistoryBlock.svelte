@@ -6,9 +6,9 @@
 <div class="job-history-block">
 	<div class="font-bold text-lg mb-2 dark:text-white">{time}</div>
 	<div class="">
-		<p class="text-lg text-seafoam font-bold">{company}</p>
+		<p class="text-lg text-seafoam dark:text-scYellow font-bold">{company}</p>
 	</div>
-	<div class="text-scYellow mb-1 font-bold">{role}</div>
+	<div class="text-bgDark dark:text-seafoam mb-1 font-black">{role}</div>
 	<div class="text-sm md:text-base block text-gray-700 dark:text-textDark mb-4">
 		{description}
 	</div>
