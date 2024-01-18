@@ -3,6 +3,8 @@
 	import { stackData } from '$lib/data/stack-data';
 
 	const stackDataArr = stackData;
+	const knownStacks = stackDataArr.slice(0, 12);
+	const learningStacks = stackDataArr.slice(12, 18);
 </script>
 
 <div class="flex h-fit flex-col md:space-y-12 text-center px-4 mx-auto w-screen sm:w-full pt-16">
@@ -22,12 +24,18 @@
 			</div>
 		</div>
 		<p class="text-text dark:text-textDark xl:text-lg pt-2">
-			I love building things. Here are some of my favorite recent technologies:
+			I love building things. Here are some of my favorite technologies:
 		</p>
 	</div>
-	<div class="flex justify-center">
-		<div class="grid grid-cols-3 grid-rows-6 lg:grid lg:grid-cols-6 lg:grid-rows-3 lg:w-3/4">
-			{#each stackDataArr as stack}
+	<div class="flex flex-col justify-center items-center">
+		<div class="grid grid-cols-3 grid-rows-4 lg:grid lg:grid-cols-6 lg:grid-rows-2 lg:w-3/4">
+			{#each knownStacks as stack}
+				<TechBadge {stack} />
+			{/each}
+		</div>
+		<p class="pt-8 xl:text-lg">What I'm learning:</p>
+		<div class="grid grid-cols-3 grid-rows-6 lg:grid lg:grid-cols-6 lg:grid-rows-1 lg:w-3/4">
+			{#each learningStacks as stack}
 				<TechBadge {stack} />
 			{/each}
 		</div>

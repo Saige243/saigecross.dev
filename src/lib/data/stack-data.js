@@ -34,29 +34,24 @@ export const stackData = [
 		link: 'https://react.dev/'
 	},
 	{
+		title: 'NextJs',
+		image: nextjs,
+		link: 'https://nextjs.org/'
+	},
+	{
 		title: 'Svelte',
 		image: svelte,
 		link: 'https://svelte.dev'
 	},
 	{
-		title: 'Jquery',
-		image: jquery,
-		link: 'https://jquery.com/'
+		title: 'Electron',
+		image: electron,
+		link: 'https://www.electronjs.org/'
 	},
 	{
 		title: 'Firebase',
 		image: firebase,
 		link: 'https://firebase.google.com/?gad_source=1&gclid=Cj0KCQiA67CrBhC1ARIsACKAa8Stp-Av33LlqPWA4_WmAGynpc4tnzTD6ehbbP_vqIXLfYA_suqDNpQaAh13EALw_wcB&gclsrc=aw.ds'
-	},
-	// {
-	// title: 'Express',
-	// image: '../assets/badges/express.svg',
-	// link: 'https://www.google.com'
-	// },
-	{
-		title: 'Electron',
-		image: electron,
-		link: 'https://www.electronjs.org/'
 	},
 	{
 		title: 'MongoDB',
@@ -69,14 +64,19 @@ export const stackData = [
 		link: 'https://tailwindcss.com/'
 	},
 	{
-		title: 'NextJs',
-		image: nextjs,
-		link: 'https://nextjs.org/'
+		title: 'Jquery',
+		image: jquery,
+		link: 'https://jquery.com/'
 	},
 	{
 		title: 'Storybook',
 		image: storybook,
 		link: 'https://storybook.js.org/'
+	},
+	{
+		title: 'Git',
+		image: git,
+		link: 'https://git-scm.com/'
 	},
 	{
 		title: 'GraphQL',
@@ -94,30 +94,10 @@ export const stackData = [
 		link: 'https://rubyonrails.org/'
 	},
 	{
-		title: 'Git',
-		image: git,
-		link: 'https://git-scm.com/'
-	},
-	{
 		title: 'Heroku',
 		image: heroku,
 		link: 'https://www.heroku.com/'
 	},
-	// {
-	// 	title: 'Netlify',
-	// 	image: '../assets/badges/netlify.svg',
-	// 	link: 'https://www.google.com'
-	// },
-	// {
-	// 	title: 'Vercel',
-	// 	image: '../assets/badges/vercel.svg',
-	// 	link: 'https://www.google.com'
-	// },
-	// {
-	// 	title: 'Firebase',
-	// 	image: '../assets/badges/firebase.svg',
-	// 	link: 'https://www.google.com'
-	// },
 	{
 		title: 'AWS',
 		image: aws,
