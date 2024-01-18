@@ -45,7 +45,7 @@ export const projectPageData = [
 	{
 		title: 'Maisie Cross Designs',
 		description:
-			'This is the personal portfolio of UI/UX designer Maisie Cross. The site was built to showcase Maisie’s work and provide a way for potential clients to contact her. The site was built with NextJS and TailwindCSS, and is hosted on Vercel.',
+			"This is the personal portfolio of UI/UX designer Maisie Cross. Built with NextJS and TailwindCSS, and is hosted on Vercel, it's purpose was to showcase the designer's work and provide a way for potential clients to contact her.",
 		image: 'https://picsum.photos/200/300',
 		link: 'https://maisiecross.com',
 		ghLink: 'https://github.com/Saige243/MaisieCrossDesigns',
@@ -62,9 +62,9 @@ export const projectPageData = [
 		stack: ['Typescript', 'NextJS', 'Node', 'TailwindCSS']
 	},
 	{
-		title: 'saigecross.dev',
+		title: 'SaigeCross.dev',
 		description:
-			'lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl eget aliquam ultricies, nunc nisl aliquet nunc, nec aliquam nisl',
+			"The very site you're currently on. Wild, isn't it? Built with Svelte and TailwindCSS, and hosted on Vercel, it's an attempt to showcase my work and skills as a developer. Hope you're enjoying it.",
 		image: 'https://picsum.photos/200/300',
 		link: 'https://saigecross.dev',
 		ghLink: 'https://github.com/Saige243/saigecross.dev',

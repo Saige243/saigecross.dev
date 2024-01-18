@@ -26,12 +26,12 @@
 <div class="absolute sm:hidden bottom-6 right-4 z-10">
 	<button
 		id="click"
-		class="p-3 bg-blue-400 rounded-full transform transition-transform ease-in-out duration-300"
+		class="p-3 bg-seafoam rounded-full transform transition-transform ease-in-out duration-300"
 		on:click={handleToggle}
 		style={`transform: rotate(${isOpen ? '180deg' : '0'})`}
 	>
 		<svg
-			class="w-6 h-6 text-gray-800 dark:text-white"
+			class="w-6 h-6 text-white"
 			aria-hidden="true"
 			xmlns="http://www.w3.org/2000/svg"
 			fill="none"

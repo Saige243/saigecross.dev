@@ -9,11 +9,11 @@
 	</h2>
 	<p class="text-3xl text-text dark:text-textDark text-center sm:text-left">Stuff about me.</p>
 
-	<div class="lg:flex md:space-x-6 items-center justify-center sm:my-32">
+	<div class="lg:flex md:space-x-6 items-center justify-center sm:my-32 pb-8">
 		<img
 			src="https://picsum.photos/800/600?grayscale&random=1"
 			alt="Portrait of me"
-			class="rounded-full w-72 h-72 mx-auto mt-8 mb-8"
+			class="rounded-full w-80 h-80 mx-auto mt-8 mb-8"
 		/>
 		<div class="px-10">
 			<p>
@@ -24,8 +24,8 @@
 				actually got me hired at Of Ash And Fire, where I currently work as a full-stack developer, building
 				a wide variety of software applications and solutions built with a range of technololgies like
 				TypeScript, React, MongoDB, Ruby on Rails, React Native, and Expo, just to name a few.
-				<br /> When I'm not coding, I'm probably reading, writing, watching a movie, or playing piano
-				or guitar.
+				<br /><br /> When I'm not coding, I'm probably reading, writing, watching a movie, or playing
+				piano or guitar.
 			</p>
 		</div>
 	</div>

@@ -46,14 +46,16 @@
 			<div class="flex flex-col md:w-1/2 text-wrap justify-center">
 				<p class="dark:text-white py-8">{$projectContent.description}</p>
 				<div class="flex space-x-2">
-					<a
-						href={$projectContent.link}
-						target="_blank"
-						class="flex justify-between w-1/2 bg-seafoam text-white py-2 mb-8 px-4 rounded hover:opacity-80 transition-colors duration-200 text-center cursor-pointe text-sm lg:text-base"
-					>
-						Check it out
-						<img src={ExternalLink} alt="external link" class="w-4" />
-					</a>
+					{#if $projectContent.title !== 'SaigeCross.dev'}
+						<a
+							href={$projectContent.link}
+							target="_blank"
+							class="flex justify-between w-1/2 bg-seafoam text-white py-2 mb-8 px-4 rounded hover:opacity-80 transition-colors duration-200 text-center cursor-pointe text-sm lg:text-base"
+						>
+							Check it out
+							<img src={ExternalLink} alt="external link" class="w-4" />
+						</a>
+					{/if}
 					<a
 						href={$projectContent.ghLink}
 						target="_blank"
