@@ -17,11 +17,11 @@
 		/>
 		<div class="px-10">
 			<p>
-				Great, to meet you! I'm Saige - a musician turned full-stack developer who loves to create
+				Great, to meet you! I'm Saige - a musician turned fullstack developer who loves to create
 				things from scratch.<br /><br />
 				I started my professional software engineering journey in 2022, working with a music startup
 				web app called Fanwave.io, built in TypeScript, React, and Express on the backend. That project
-				actually got me hired at Of Ash And Fire, where I currently work as a full-stack developer, building
+				actually got me hired at Of Ash And Fire, where I currently work as a fullstack developer, building
 				a wide variety of software applications and solutions built with a range of technololgies like
 				TypeScript, React, MongoDB, Ruby on Rails, React Native, and Expo, just to name a few.
 				<br /><br /> When I'm not coding, I'm probably reading, writing, watching a movie, or playing

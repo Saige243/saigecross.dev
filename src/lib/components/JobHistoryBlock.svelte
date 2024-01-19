@@ -12,7 +12,7 @@
 	<div class="text-sm md:text-base block text-gray-700 dark:text-textDark mb-4">
 		{description}
 	</div>
-	<div class="text-blue-500 font-bold text-sm">
+	<div class="text-seafoam font-bold text-sm">
 		{stack}
 	</div>
 	{#if company !== 'PLENTY Mercantile'}
