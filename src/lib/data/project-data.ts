@@ -36,7 +36,7 @@ export const projectPageData = [
 	{
 		title: 'BookBud',
 		description:
-			'BookBud is a fully-functional CRUD book review app that allows users to search for books and leave reviews. Built as a response to the lack of a good book review app that allows users to search for books and leave reviews, BB seeks to implement a number of design and functionality improvements I saw as lacking in other popular book applications.',
+			"BookBud is a fully-functional CRUD book review app that allows users to search for books and leave reviews. Built as a response to the lack of a good book review app that allows users to search for books and leave reviews, BB seeks to implement a number of design and functionality improvements I saw as lacking in other popular book applications. I'm constantly adding new features so be sure to check back.",
 		image: 'https://picsum.photos/200/300',
 		link: 'https://github.com/Saige243/BookBud',
 		ghLink: '',
@@ -96,8 +96,6 @@ export const jobHistoryData = [
 			'Implemented stylish and responsive user interfaces using Tailwind CSS and Material-UI (MUI) components, ensuring an aesthetically appealing and user-friendly platform for music venue aggregation.',
 			'Orchestrated full-stack development efforts, bridging front-end React/TypeScript functionalities with Express backend systems, demonstrating a comprehensive understanding of end-to-end web application development.'
 		],
-		// description:
-		// 	"Fanwave is a startup focused on music venue discovery. I was hired as a junior software engineer to help build out the company's web app. I worked on a number of features, including a custom map component, a custom carousel component, and a custom search component. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation.",
 		stack: ['Typescript', ' React', ' Node', ' Express', ' MongoDB']
 	},
 	{
