@@ -7,7 +7,9 @@
 	>
 		About.
 	</h2>
-	<p class="text-3xl text-text dark:text-textDark text-center sm:text-left">Stuff about me.</p>
+	<p class="text-3xl text-text dark:text-textDark font-extrabold text-center sm:text-left">
+		Stuff about me.
+	</p>
 
 	<div class="lg:flex md:space-x-6 items-center justify-center sm:my-32 pb-8">
 		<img

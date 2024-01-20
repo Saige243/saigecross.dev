@@ -1,5 +1,5 @@
 <script lang="ts">
-	const { title, description, stack, handleModalClick } = $$props;
+	const { title, description, stack, image, handleModalClick } = $$props;
 	import { stackData } from '$lib/data/stack-data';
 	import ProjectTechBadge from './ProjectTechBadge.svelte';
 
@@ -20,8 +20,8 @@
 	class=" flex flex-col p-4 sm:p-4 bg-white dark:bg-cardGreen border rounded-lg shadow-xl dark:border-cardGreen hover:opacity-80 cursor-pointer max-h-[180px]"
 >
 	<div class="flex space-x-2">
-		<div class="w-[250px]">
-			<img src="https://picsum.photos/800/600?grayscale&random=1" alt="pic" class="h-full" />
+		<div class="hidden md:flex sm:w-[290px]">
+			<img src={image} alt="pic" class="h-full" />
 		</div>
 
 		<div class="flex flex-col px-6">

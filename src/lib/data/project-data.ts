@@ -1,9 +1,13 @@
+import bookbud from '../assets/bookbud.png';
+import mcd from '../assets/maisiecrossdesigns.png';
+import scd from '../assets/scd.png';
+
 export const projectData = [
 	{
 		title: 'BookBud',
 		description:
 			'BookBud is a fully-functional CRUD book app that allows users to search for books and leave reviews.',
-		image: 'https://picsum.photos/200/300',
+		image: bookbud,
 		link: 'https://www.google.com',
 		stack: ['Typescript', 'React', 'Node', 'Express', 'MongoDB', 'TailwindCSS']
 	},
@@ -11,7 +15,7 @@ export const projectData = [
 		title: 'Maisie Cross Designs',
 		description:
 			'A static portfolio site built for Product/Graphic/UX/UI designer, Maisie Cross to showcase her work.',
-		image: 'https://picsum.photos/200/300',
+		image: mcd,
 		link: 'https://www.google.com',
 		stack: ['Typescript', 'NextJS', 'Node', 'TailwindCSS']
 	},
@@ -26,7 +30,7 @@ export const projectData = [
 	{
 		title: 'SaigeCross.dev',
 		description: `The very site you're on right now! (How meta!) Built with Svelte and TailwindCSS, and hosted on Vercel.`,
-		image: 'https://picsum.photos/200/300',
+		image: scd,
 		link: 'https://www.google.com',
 		stack: ['Typescript', 'Svelte', 'Node', 'TailwindCSS']
 	}
