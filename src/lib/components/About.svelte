@@ -17,7 +17,7 @@
 		/>
 		<div class="px-10">
 			<p>
-				Great, to meet you! I'm Saige - a musician turned fullstack developer who loves to create
+				Great to meet you! I'm Saige - a musician turned fullstack developer who loves to create
 				things from scratch.<br /><br />
 				I started my professional software engineering journey in 2022, working with a music startup
 				web app called Fanwave.io, built in TypeScript, React, and Express on the backend. That project

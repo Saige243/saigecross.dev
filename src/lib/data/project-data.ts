@@ -77,24 +77,40 @@ export const jobHistoryData = [
 		company: 'Of Ash And Fire',
 		role: 'Software Engineer',
 		time: '8/2022 - Current',
-		description:
-			"Of Ash And Fire is software agency that specializes in creating custom web applications for businesses. I was hired as a software engineer to help build out the company's web app. I worked on a number of features, including a custom map component, a custom carousel component, and a custom search component. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation.",
+		description: [
+			'Spearheaded the development of a dynamic application using React Native, showcasing proficiency in cross-platform mobile app development and delivering enhanced user experiences.',
+			'Extensively involved in building robust front-end components for a wide variety of applications using React and Next.js, integrated with Rails backends, ensuring seamless functionality and user interaction.',
+			"Contributed significantly to the development of Expo applications, demonstrating skills in utilizing Expo's framework for efficient project execution and deployment.",
+			'Acted as a mentor to junior developers and interns, fostering a collaborative environment, enhancing team capabilities, and ensuring successful knowledge transfer and skill development.',
+			'Engaged actively in code review processes, ensuring code quality, adherence to best practices, and continuous improvement of the development workflow.'
+		],
 		stack: ['Typescript', ' React', ' React Native', ' Node', ' Express', ' MongoDB', ' Rails']
 	},
 	{
 		company: 'Fanwave.io',
 		role: 'Junior Software Engineer',
 		time: '4/2022 - 8/2022',
-		description:
-			"Fanwave is a startup focused on music venue discovery. I was hired as a junior software engineer to help build out the company's web app. I worked on a number of features, including a custom map component, a custom carousel component, and a custom search component. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation.",
+		description: [
+			'Helped with front-end development of a music venue aggregator using React and TypeScript, showcasing skills in modern JavaScript frameworks and strong type-checking for robust application performance.',
+			'Integrated Express as the backend solution, enabling efficient data handling and API management for a seamless and responsive user experience.',
+			'Implemented stylish and responsive user interfaces using Tailwind CSS and Material-UI (MUI) components, ensuring an aesthetically appealing and user-friendly platform for music venue aggregation.',
+			'Orchestrated full-stack development efforts, bridging front-end React/TypeScript functionalities with Express backend systems, demonstrating a comprehensive understanding of end-to-end web application development.'
+		],
+		// description:
+		// 	"Fanwave is a startup focused on music venue discovery. I was hired as a junior software engineer to help build out the company's web app. I worked on a number of features, including a custom map component, a custom carousel component, and a custom search component. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation.",
 		stack: ['Typescript', ' React', ' Node', ' Express', ' MongoDB']
 	},
 	{
 		company: 'PLENTY Mercantile',
 		role: 'Chief Operating Officer',
 		time: '7/2019 - 4/2022',
-		description:
-			"PLENTY Mercantile is a startup focused on music venue discovery. I was hired as a junior software engineer to help build out the company's web app. I worked on a number of features, including a custom map component, a custom carousel component, and a custom search component. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation. I also worked on a number of backend features, including a custom API endpoint for venue search, and a custom API endpoint for venue creation.",
+		description: [
+			"As Chief Operating Officer, orchestrated the company's operational schedule, ensuring optimal allocation of resources and efficient time management to meet business objectives.",
+			'Fostered a positive work environment and maintained high team morale through effective leadership, open communication, and employee engagement strategies.',
+			'Ensured seamless operation of the event venue and shopfront, managing both areas to function in tandem and optimizing operational efficiency for enhanced customer experience.',
+			'Led the implementation of data-driven sales strategies, focusing on maximizing revenue while maintaining operational efficiency and cost-effectiveness.',
+			'Kept the team abreast of the latest sales trends and trained them in advanced upselling techniques, contributing to sustained business growth and market competitiveness.'
+		],
 		stack: ['Typescript', ' React', ' Node', ' Express', ' MongoDB']
 	}
 ];

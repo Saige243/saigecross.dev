@@ -10,7 +10,11 @@
 	</div>
 	<div class="text-bgDark dark:text-seafoam mb-1 font-black">{role}</div>
 	<div class="text-sm md:text-base block text-gray-700 dark:text-textDark mb-4">
-		{description}
+		<ul>
+			{#each description as desc}
+				<li class="list-disc ml-4">{desc}</li>
+			{/each}
+		</ul>
 	</div>
 	<div class="text-seafoam font-bold text-sm">
 		{stack}
