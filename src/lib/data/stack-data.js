@@ -4,7 +4,7 @@ import electron from '$lib/assets/badges/electron.svg';
 import firebase from '$lib/assets/badges/firebase.svg';
 import git from '$lib/assets/badges/git.svg';
 import graphql from '$lib/assets/badges/graphql.svg';
-import heroku from '$lib/assets/badges/heroku.svg';
+import python from '$lib/assets/badges/python.svg';
 import jquery from '$lib/assets/badges/jquery.svg';
 import mongodb from '$lib/assets/badges/mongodb.svg';
 import nextjs from '$lib/assets/badges/nextjs.svg';
@@ -94,9 +94,9 @@ export const stackData = [
 		link: 'https://rubyonrails.org/'
 	},
 	{
-		title: 'Heroku',
-		image: heroku,
-		link: 'https://www.heroku.com/'
+		title: 'Python',
+		image: python,
+		link: 'https://www.python.org//'
 	},
 	{
 		title: 'AWS',
