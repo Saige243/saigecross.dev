@@ -12,20 +12,20 @@ export const projectData = [
 		stack: ['Typescript', 'React', 'Node', 'Express', 'MongoDB', 'TailwindCSS']
 	},
 	{
+		title: 'Webbit',
+		description:
+			'A Reddit clone built with Rails, SQLite, Tailwind, and Stimulus. Users can create posts, comment, and upvote.',
+		image: 'https://picsum.photos/200/100',
+		link: 'https://www.google.com',
+		stack: ['Rails', 'PostgreSQL', 'TailwindCSS']
+	},
+	{
 		title: 'Maisie Cross Designs',
 		description:
 			'A static portfolio site built for Product/Graphic/UX/UI designer, Maisie Cross to showcase her work.',
 		image: mcd,
 		link: 'https://www.google.com',
 		stack: ['Typescript', 'NextJS', 'Node', 'TailwindCSS']
-	},
-	{
-		title: 'Lotta Lattes',
-		description:
-			'A finance game focused on providing a fun way to save money and celebrate small wins (with coffee).',
-		image: 'https://picsum.photos/200/300',
-		link: 'https://www.google.com',
-		stack: ['Typescript', 'React', 'TailwindCSS']
 	},
 	{
 		title: 'SaigeCross.dev',
@@ -47,6 +47,15 @@ export const projectPageData = [
 		stack: ['Typescript', 'React', 'Express', 'MongoDB', 'TailwindCSS']
 	},
 	{
+		title: 'Webbit',
+		description:
+			'Webbit is a fully-functional Reddit clone built entirely in Rails. Utilizing SQLite and Tailwind. Users can post links, videos, upvote, downvote, and much more. The site came from a HelloRails tuturial that I Dr. Frankensteined into my own creation after growing more comfortable with the framework. Check back for updates as I continue to add new features and improve the app.',
+		image: 'https://picsum.photos/200/300',
+		link: 'https://github.com/Saige243/MaisieCrossDesigns',
+		ghLink: '',
+		stack: ['Rals', 'TailiwindCSS', 'Postgres']
+	},
+	{
 		title: 'Maisie Cross Designs',
 		description:
 			"Maisie Cross Designs is the personal portfolio of UI/UX designer Maisie Cross. Built with NextJS and TailwindCSS, and is hosted on Vercel, it's purpose was to showcase the designer's work and provide a way for potential clients to contact her.",
@@ -55,15 +64,6 @@ export const projectPageData = [
 		ghLink: 'https://github.com/Saige243/MaisieCrossDesigns',
 
 		stack: ['Typescript', 'NextJS', 'Node', 'TailwindCSS']
-	},
-	{
-		title: 'Lotta Lattes',
-		description:
-			'Lotta Lattes is a finance game focused on teaching users about the power of compound interest. The game started as a job interview skill assessment (which actually landed me the job) but has since grown over time, as I had a lot of fun with the idea.',
-		image: 'https://picsum.photos/200/300',
-		link: 'https://github.com/Saige243/MaisieCrossDesigns',
-		ghLink: '',
-		stack: ['Typescript', 'React', 'Node', 'TailwindCSS']
 	},
 	{
 		title: 'SaigeCross.dev',
