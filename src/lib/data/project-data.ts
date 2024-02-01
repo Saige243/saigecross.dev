@@ -82,13 +82,22 @@ export const jobHistoryData = [
 		role: 'Software Engineer',
 		time: '8/2022 - Current',
 		description: [
-			'Spearheaded the development of a dynamic application using React Native, showcasing proficiency in cross-platform mobile app development and delivering enhanced user experiences.',
-			'Extensively involved in building robust front-end components for a wide variety of applications using React and Next.js, integrated with Rails backends, ensuring seamless functionality and user interaction.',
+			'Extensively involved in building robust front-end components for a wide variety of applications using React and Next.js, integrated with Rails and JavaScript backends, ensuring seamless functionality and user interaction.',
 			"Contributed significantly to the development of Expo applications, demonstrating skills in utilizing Expo's framework for efficient project execution and deployment.",
+			'Contrbuted the development of a dynamic application using React Native, showcasing proficiency in cross-platform mobile app development and delivering enhanced user experiences.',
 			'Acted as a mentor to junior developers and interns, fostering a collaborative environment, enhancing team capabilities, and ensuring successful knowledge transfer and skill development.',
 			'Engaged actively in code review processes, ensuring code quality, adherence to best practices, and continuous improvement of the development workflow.'
 		],
-		stack: ['Typescript', ' React', ' React Native', ' Node', ' Express', ' MongoDB', ' Rails']
+		stack: [
+			'Typescript',
+			' React',
+			' React Native',
+			' Node',
+			' Express',
+			' MongoDB',
+			' Rails',
+			' PostgreSQL'
+		]
 	},
 	{
 		company: 'Fanwave.io',
