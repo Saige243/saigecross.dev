@@ -12,12 +12,12 @@ export const projectData = [
 		stack: ['Typescript', 'React', 'Node', 'Express', 'MongoDB', 'TailwindCSS']
 	},
 	{
-		title: 'Webbit',
+		title: 'TravelApp',
 		description:
-			'A Reddit clone built with Rails, SQLite, Tailwind, and Stimulus. Users can create posts, comment, and upvote.',
+			'A travel-planning app that allows detailed trip data saving, packing lists, itineraries, and much more.',
 		image: 'https://picsum.photos/200/100',
 		link: 'https://www.google.com',
-		stack: ['Rails', 'PostgreSQL', 'TailwindCSS']
+		stack: ['Typescript', 'Rails', 'PostgreSQL', 'TailwindCSS']
 	},
 	{
 		title: 'Maisie Cross Designs',
@@ -40,20 +40,20 @@ export const projectPageData = [
 	{
 		title: 'BookBud',
 		description:
-			"BookBud is a fully-functional CRUD book review app that allows users to search for books and leave reviews. Built as a response to the lack of a good book review app that allows users to search for books and leave reviews, BB seeks to implement a number of design and functionality improvements I saw as lacking in other popular book applications. I'm constantly adding new features so be sure to check back.",
+			"BookBud is a dynamic book review platform designed to enrich your reading journey. As a fully-functional CRUD app, it empowers users to discover books and share insights through reviews. Developed to fill the void in quality book review applications, BookBud integrates enhanced design and functionality features missing from existing platforms. With a keen eye on user experience and a passion for books, I've crafted BookBud to offer a seamless interface for exploring titles and expressing your thoughts on your latest reads.",
 		image: 'https://picsum.photos/200/300',
 		link: 'https://github.com/Saige243/BookBud',
 		ghLink: '',
 		stack: ['Typescript', 'React', 'Express', 'MongoDB', 'TailwindCSS']
 	},
 	{
-		title: 'Webbit',
+		title: 'TravelApp',
 		description:
-			'Webbit is a fully-functional Reddit clone built entirely in Rails. Utilizing SQLite and Tailwind. Users can post links, videos, upvote, downvote, and much more. The site came from a HelloRails tuturial that I Dr. Frankensteined into my own creation after growing more comfortable with the framework. Check back for updates as I continue to add new features and improve the app.',
+			"TravelApp is your straightforward solution for organizing trips with ease. Developed with Rails and styled with TailwindCSS, this app offers a simple yet powerful platform to manage all your travel essentials. From crafting detailed itineraries and packing lists to storing important trip information, TravelApp is designed to make travel planning as effortless as possible. Recognizing the need for a comprehensive travel planner, I created TravelApp to address the challenges of organizing trips. It's not just about storing data; it's about enhancing your travel preparation with a user-friendly tool that grows with your needs. Im continuously working on improving TravelApp, adding new functionalities and refining the user experience. Make sure to check back for updates and new features. Your next trip planning experience could be even smoother!",
 		image: 'https://picsum.photos/200/300',
 		link: 'https://github.com/Saige243/MaisieCrossDesigns',
 		ghLink: '',
-		stack: ['Rals', 'TailiwindCSS', 'Postgres']
+		stack: ['Typescript', 'Rails', 'TailwindCSS', 'Postgres']
 	},
 	{
 		title: 'Maisie Cross Designs',
@@ -83,7 +83,6 @@ export const jobHistoryData = [
 		time: '8/2022 - Current',
 		description: [
 			'Extensively involved in building robust front-end components for a wide variety of applications using React and Next.js, integrated with Rails and JavaScript backends, ensuring seamless functionality and user interaction.',
-			"Contributed significantly to the development of Expo applications, demonstrating skills in utilizing Expo's framework for efficient project execution and deployment.",
 			'Contrbuted the development of a dynamic application using React Native, showcasing proficiency in cross-platform mobile app development and delivering enhanced user experiences.',
 			'Acted as a mentor to junior developers and interns, fostering a collaborative environment, enhancing team capabilities, and ensuring successful knowledge transfer and skill development.',
 			'Engaged actively in code review processes, ensuring code quality, adherence to best practices, and continuous improvement of the development workflow.'

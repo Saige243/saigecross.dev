@@ -49,9 +49,9 @@ export const stackData = [
 		link: 'https://www.electronjs.org/'
 	},
 	{
-		title: 'Firebase',
-		image: firebase,
-		link: 'https://firebase.google.com/?gad_source=1&gclid=Cj0KCQiA67CrBhC1ARIsACKAa8Stp-Av33LlqPWA4_WmAGynpc4tnzTD6ehbbP_vqIXLfYA_suqDNpQaAh13EALw_wcB&gclsrc=aw.ds'
+		title: 'Rails',
+		image: rails,
+		link: 'https://rubyonrails.org/'
 	},
 	{
 		title: 'MongoDB',
@@ -89,9 +89,9 @@ export const stackData = [
 		link: 'https://www.postgresql.org/'
 	},
 	{
-		title: 'Rails',
-		image: rails,
-		link: 'https://rubyonrails.org/'
+		title: 'Firebase',
+		image: firebase,
+		link: 'https://firebase.google.com/?gad_source=1&gclid=Cj0KCQiA67CrBhC1ARIsACKAa8Stp-Av33LlqPWA4_WmAGynpc4tnzTD6ehbbP_vqIXLfYA_suqDNpQaAh13EALw_wcB&gclsrc=aw.ds'
 	},
 	{
 		title: 'Python',
