@@ -1,6 +1,7 @@
 import bookbud from '../assets/bookbud.png';
 import mcd from '../assets/maisiecrossdesigns.png';
 import scd from '../assets/scd.png';
+import travelapp from '../assets/travelapp.png';
 
 export const projectData = [
 	{
@@ -15,7 +16,7 @@ export const projectData = [
 		title: 'TravelApp',
 		description:
 			'A travel-planning app that allows detailed trip data saving, packing lists, itineraries, and much more.',
-		image: 'https://picsum.photos/200/100',
+		image: travelapp,
 		link: 'https://www.google.com',
 		stack: ['Typescript', 'Rails', 'PostgreSQL', 'TailwindCSS']
 	},
@@ -41,7 +42,7 @@ export const projectPageData = [
 		title: 'BookBud',
 		description:
 			"BookBud is a dynamic book review platform designed to enrich your reading journey. As a fully-functional CRUD app, it empowers users to discover books and share insights through reviews. Developed to fill the void in quality book review applications, BookBud integrates enhanced design and functionality features missing from existing platforms. With a keen eye on user experience and a passion for books, I've crafted BookBud to offer a seamless interface for exploring titles and expressing your thoughts on your latest reads.",
-		image: 'https://picsum.photos/200/300',
+		image: bookbud,
 		link: 'https://github.com/Saige243/BookBud',
 		ghLink: 'https://github.com/Saige243/BookBud',
 		stack: ['Typescript', 'React', 'Express', 'MongoDB', 'TailwindCSS']
@@ -50,7 +51,7 @@ export const projectPageData = [
 		title: 'TravelApp',
 		description:
 			"TravelApp is your straightforward solution for organizing trips with ease. Developed with Rails and styled with TailwindCSS, this app offers a simple yet powerful platform to manage all your travel essentials. From crafting detailed itineraries and packing lists to storing important trip information, TravelApp is designed to make travel planning as effortless as possible. Recognizing the need for a comprehensive travel planner, I created TravelApp to address the challenges of organizing trips. It's not just about storing data; it's about enhancing your travel preparation with a user-friendly tool that grows with your needs. Im continuously working on improving TravelApp, adding new functionalities and refining the user experience. Make sure to check back for updates and new features. Your next trip planning experience could be even smoother!",
-		image: 'https://picsum.photos/200/300',
+		image: travelapp,
 		link: 'https://github.com/Saige243/travel-app-frontend',
 		ghLink: 'https://github.com/Saige243/travel_app_backend',
 		stack: ['Typescript', 'Rails', 'TailwindCSS', 'Postgres']
@@ -59,7 +60,7 @@ export const projectPageData = [
 		title: 'Maisie Cross Designs',
 		description:
 			"Maisie Cross Designs is the personal portfolio of UI/UX designer Maisie Cross. Built with NextJS and TailwindCSS, and is hosted on Vercel, it's purpose was to showcase the designer's work and provide a way for potential clients to contact her.",
-		image: 'https://picsum.photos/200/300',
+		image: mcd,
 		ghLink: 'https://maisiecross.com',
 		link: 'https://github.com/Saige243/MaisieCrossDesigns',
 		stack: ['Typescript', 'NextJS', 'Node', 'TailwindCSS']
@@ -68,7 +69,7 @@ export const projectPageData = [
 		title: 'SaigeCross.dev',
 		description:
 			"The very site you're currently on. Wild, isn't it? Built with Svelte and TailwindCSS, and hosted on Vercel, it's an attempt to showcase my work and skills as a developer. Hope you're enjoying it.",
-		image: 'https://picsum.photos/200/300',
+		image: scd,
 		link: 'https://saigecross.dev',
 		ghLink: 'https://github.com/Saige243/saigecross.dev',
 		stack: ['Typescript', 'NextJS', 'Node', 'TailwindCSS']

@@ -23,7 +23,7 @@
 	bind:this={dialog}
 	on:close={() => (showModal = false)}
 	on:click|self={() => dialog.close()}
-	class="px-4 sm:px-8 md:px-24 lg:px-40 dark:bg-gray-600 py-12 h-screen md:h-fit"
+	class="px-20 md:px-12 lg:px-4 dark:bg-gray-600 py-12 h-screen md:h-fit"
 >
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div on:click|stopPropagation class="flex flex-col max-w-fit h-fit p-2">
@@ -34,16 +34,16 @@
 			<h1
 				class="text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
 			>
-				{$projectContent.title}
+				{$projectContent.title === 'TravelApp' ? 'Travel App (In progress)' : $projectContent.title}
 				<hr />
 			</h1>
 		</div>
-		<div class="md:flex justify-between space-x-2 space-y-2">
-			<div class="flex place-content-center md:w-1/2">
-				<img src="https://picsum.photos/800/600?grayscale&random=1" alt={$projectContent.title} />
+		<div class="xl:flex justify-between space-x-2 space-y-2">
+			<div class="flex place-content-center xl:w-1/2">
+				<img src={$projectContent.image} alt={$projectContent.title} />
 			</div>
 			<hr />
-			<div class="flex flex-col md:w-1/2 text-wrap justify-center">
+			<div class="flex flex-col xl:w-1/2 text-wrap justify-center">
 				<p class="dark:text-white py-8">{$projectContent.description}</p>
 				<div class="flex space-x-2">
 					{#if $projectContent.title !== 'SaigeCross.dev'}

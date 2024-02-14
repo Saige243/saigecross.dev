@@ -10,18 +10,14 @@
 	let themeColor = '';
 
 	onMount(() => {
-		window.onload = () => {
-			loaded = true;
-		};
-	});
-
-	$: if (loaded) {
 		themeColor = $theme === 'light' ? '#C5DDDA' : '#024539';
 		const metaTag = document.querySelector('meta[name="theme-color"]');
 		if (metaTag) {
 			metaTag.setAttribute('content', themeColor);
 		}
-	}
+	});
+
+	$: themeColor = $theme === 'light' ? '#C5DDDA' : '#024539';
 </script>
 
 <div

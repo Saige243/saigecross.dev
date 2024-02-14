@@ -1,4 +1,5 @@
 <script>
+	import Portrait from '../assets/portrait.jpeg';
 </script>
 
 <div class="flex flex-col w-screen md:w-full h-full pt-16 lg:px-20 min-h-screen">
@@ -12,11 +13,7 @@
 	</p>
 
 	<div class="lg:flex md:space-x-6 items-center justify-center sm:my-32 pb-8">
-		<img
-			src="https://picsum.photos/800/600?grayscale&random=1"
-			alt="Portrait of me"
-			class="rounded-full w-80 h-80 mx-auto mt-8 mb-8"
-		/>
+		<img src={Portrait} alt="Portrait of me" class="rounded-full w-50 h-80 mx-auto mt-8 mb-8" />
 		<div class="px-10">
 			<p>
 				Great to meet you! I'm Saige - a musician turned fullstack developer who loves to create
