@@ -32,11 +32,11 @@
 				url: 'https://github.com/saige243',
 				icon: $theme === 'light' ? Github : GithubWhite
 			},
-			{
-				name: 'Twitter',
-				url: 'https://twitter.com/The_Commodore0',
-				icon: $theme === 'light' ? Twitter : TwitterWhite
-			},
+			// {
+			// 	name: 'Twitter',
+			// 	url: 'https://twitter.com/The_Commodore0',
+			// 	icon: $theme === 'light' ? Twitter : TwitterWhite
+			// },
 			{
 				name: 'LinkedIn',
 				url: 'https://www.linkedin.com/in/saige-cross-8b3976241/',

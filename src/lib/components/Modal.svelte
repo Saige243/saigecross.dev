@@ -52,7 +52,9 @@
 							target="_blank"
 							class="flex justify-between w-1/2 bg-seafoam text-white py-2 mb-8 px-4 rounded hover:opacity-80 transition-colors duration-200 text-center cursor-pointe text-sm lg:text-base"
 						>
-							Check it out
+							{$projectContent.title === 'TravelApp'
+								? 'Github repository (frontend)'
+								: 'Github repository'}
 							<img src={ExternalLink} alt="external link" class="w-4" />
 						</a>
 					{/if}
@@ -61,7 +63,7 @@
 						target="_blank"
 						class="flex justify-between w-1/2 bg-seafoam text-white py-2 mb-8 px-4 rounded hover:opacity-80 transition-colors duration-200 text-center cursor-pointer text-sm lg:text-base"
 					>
-						Github repository
+						{$projectContent.title === 'TravelApp' ? 'Github repository (backend)' : 'Check it out'}
 						<img src={ExternalLink} alt="external link" class="w-4" />
 					</a>
 				</div>
