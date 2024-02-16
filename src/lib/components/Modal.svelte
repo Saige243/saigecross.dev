@@ -45,12 +45,12 @@
 			<hr />
 			<div class="flex flex-col xl:w-1/2 text-wrap justify-center">
 				<p class="dark:text-white py-8">{$projectContent.description}</p>
-				<div class="flex space-x-2">
+				<div class="md:flex md:space-x-2">
 					{#if $projectContent.title !== 'SaigeCross.dev'}
 						<a
 							href={$projectContent.link}
 							target="_blank"
-							class="flex justify-between w-1/2 bg-seafoam text-white py-2 mb-8 px-4 rounded hover:opacity-80 transition-colors duration-200 text-center cursor-pointe text-sm lg:text-base"
+							class="flex justify-between md:w-1/2 bg-seafoam text-white py-2 mb-8 px-4 rounded hover:opacity-80 transition-colors duration-200 text-center cursor-pointe text-sm lg:text-base"
 						>
 							{$projectContent.title === 'TravelApp'
 								? 'Github repository (frontend)'
@@ -61,7 +61,7 @@
 					<a
 						href={$projectContent.ghLink}
 						target="_blank"
-						class="flex justify-between w-1/2 bg-seafoam text-white py-2 mb-8 px-4 rounded hover:opacity-80 transition-colors duration-200 text-center cursor-pointer text-sm lg:text-base"
+						class="flex justify-between md:w-1/2 bg-seafoam text-white py-2 mb-8 px-4 rounded hover:opacity-80 transition-colors duration-200 text-center cursor-pointer text-sm lg:text-base"
 					>
 						{$projectContent.title === 'TravelApp' ? 'Github repository (backend)' : 'Check it out'}
 						<img src={ExternalLink} alt="external link" class="w-4" />
