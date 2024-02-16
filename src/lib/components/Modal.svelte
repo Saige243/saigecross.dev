@@ -23,7 +23,7 @@
 	bind:this={dialog}
 	on:close={() => (showModal = false)}
 	on:click|self={() => dialog.close()}
-	class="px-20 md:px-12 lg:px-4 dark:bg-gray-600 py-12 h-screen md:h-fit"
+	class="px-2 md:px-12 lg:px-4 dark:bg-gray-600 py-12 h-screen md:h-fit"
 >
 	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div on:click|stopPropagation class="flex flex-col max-w-fit h-fit p-2">
