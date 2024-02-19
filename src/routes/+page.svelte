@@ -32,7 +32,7 @@
 </script>
 
 <svelte:head>
-	<title>I'm Saige 👋</title>
+	<title>Hello there!</title>
 	<meta name="description" content="saigecross.dev" />
 </svelte:head>
 
