@@ -113,7 +113,7 @@ export const jobHistoryData = [
 	{
 		company: 'PLENTY Mercantile',
 		role: 'Chief Operating Officer',
-		time: '7/2019 - 4/2022',
+		time: '7/2018 - 4/2022',
 		description: [
 			"As Chief Operating Officer, orchestrated the company's operational schedule, ensuring optimal allocation of resources and efficient time management to meet business objectives.",
 			'Fostered a positive work environment and maintained high team morale through effective leadership, open communication, and employee engagement strategies.',

@@ -33,7 +33,6 @@
 				<TechBadge {stack} />
 			{/each}
 		</div>
-		<p class="pt-8 xl:text-lg">Skills I'm developing:</p>
 		<div class="grid grid-cols-3 grid-rows-6 lg:grid lg:grid-cols-6 lg:grid-rows-1 lg:w-3/4">
 			{#each learningStacks as stack}
 				<TechBadge {stack} />
