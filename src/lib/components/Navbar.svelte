@@ -32,11 +32,6 @@
 				url: 'https://github.com/saige243',
 				icon: $theme === 'light' ? Github : GithubWhite
 			},
-			// {
-			// 	name: 'Twitter',
-			// 	url: 'https://twitter.com/The_Commodore0',
-			// 	icon: $theme === 'light' ? Twitter : TwitterWhite
-			// },
 			{
 				name: 'LinkedIn',
 				url: 'https://www.linkedin.com/in/saige-cross-8b3976241/',
@@ -60,7 +55,7 @@
 	}
 </script>
 
-<navbar class="hidden md:flex sm:flex-col sm:px-4 justify-between">
+<navbar class="hidden sm:flex sm:flex-col sm:px-4 justify-between">
 	<div class="pt-16 w-[100px]">
 		{#each $pages as { name, id }}
 			<button
