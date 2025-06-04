@@ -12,7 +12,7 @@
 		Stuff about me.
 	</p>
 
-	<div class="lg:flex md:space-x-6 items-center justify-center sm:my-32 md:my-0 pb-8">
+	<div class="lg:flex md:space-x-6 items-center justify-center pb-8">
 		<img src={Portrait} alt="Portrait of me" class="rounded-full w-50 h-80 mx-auto mt-8 mb-8" />
 		<div class="px-10">
 			<p>
