@@ -4,8 +4,6 @@
 	import Toggle from '$lib/components/Toggle.svelte';
 	import Github from '$lib/assets/github.svg';
 	import GithubWhite from '$lib/assets/githubWhite.svg';
-	import Twitter from '$lib/assets/twitter.svg';
-	import TwitterWhite from '$lib/assets/twitterWhite.svg';
 	import LinkedIn from '$lib/assets/linkedin.svg';
 	import LinkedInWhite from '$lib/assets/linkedinWhite.svg';
 	import { theme } from '$lib/theme';

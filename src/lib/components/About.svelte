@@ -2,7 +2,7 @@
 	import Portrait from '../assets/portrait.jpeg';
 </script>
 
-<div class="flex flex-col w-screen md:w-full h-full pt-16 lg:px-20 min-h-screen">
+<div class="flex flex-col w-screen sm:w-full h-full pt-16 lg:px-20 min-h-screen">
 	<h2
 		class="mb-4 text-4xl text-center sm:text-left font-extrabold tracking-tight leading-none md:text-4xl lg:text-5xl text-scYellow"
 	>

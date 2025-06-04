@@ -1,16 +1,34 @@
 <script lang="ts">
-	export let showModal: Boolean;
+	export let showModal: boolean;
 	import { projectPageData } from '$lib/data/project-data';
 	import { writable } from 'svelte/store';
 	import ExternalLink from '$lib/assets/externalLink.svg';
 
-	let projectContent: any = writable({});
+	type ProjectContent = {
+		title: string;
+		image: string;
+		description: string;
+		link: string;
+		ghLink: string;
+		stack: string[];
+	};
+
+	import type { Writable } from 'svelte/store';
+
+	let projectContent: Writable<ProjectContent> = writable({
+		title: '',
+		image: '',
+		description: '',
+		link: '',
+		ghLink: '',
+		stack: []
+	});
 
 	let dialog: HTMLDialogElement;
 	$: if (dialog && showModal) dialog.showModal();
 
 	$: if ($$props.projectContent) {
-		projectPageData.map((projectName: any) => {
+		projectPageData.map((projectName) => {
 			if ($$props.projectContent === projectName.title) {
 				projectContent.set(projectName);
 			}

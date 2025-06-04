@@ -3,7 +3,12 @@
 	import { stackData } from '$lib/data/stack-data';
 	import ProjectTechBadge from './ProjectTechBadge.svelte';
 
-	let stackDataArr: any = [];
+	type StackItem = {
+		title: string;
+		image: string;
+	};
+
+	let stackDataArr: StackItem[] = [];
 
 	$: stack.map((item: string) => {
 		stackData.map((stackItem) => {

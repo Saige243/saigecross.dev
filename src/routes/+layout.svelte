@@ -6,7 +6,6 @@
 	import { onMount } from 'svelte';
 	import { theme } from '$lib/theme';
 
-	let loaded = false;
 	let themeColor = '';
 
 	onMount(() => {
