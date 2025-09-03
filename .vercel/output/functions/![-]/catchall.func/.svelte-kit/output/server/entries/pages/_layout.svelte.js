@@ -34,7 +34,7 @@ function Navbar($$payload, $$props) {
   function scrollToSection(id) {
     currentPage.set(id);
     const el = document.getElementById(id);
-    el === null || el === void 0 ? void 0 : el.scrollIntoView({ behavior: "smooth" });
+    el?.scrollIntoView({ behavior: "smooth" });
   }
   {
     socials.set([

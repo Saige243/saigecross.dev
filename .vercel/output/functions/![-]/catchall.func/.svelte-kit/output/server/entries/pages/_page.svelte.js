@@ -308,12 +308,12 @@ function Modal($$payload, $$props) {
   });
   if ($$sanitized_props.projectContent) {
     projectPageData.map((projectName) => {
-      var _a, _b;
       if ($$sanitized_props.projectContent === projectName.title) {
-        projectContent.set(Object.assign(Object.assign({}, projectName), {
-          link: (_a = projectName.link) !== null && _a !== void 0 ? _a : "",
-          ghLink: (_b = projectName.ghLink) !== null && _b !== void 0 ? _b : ""
-        }));
+        projectContent.set({
+          ...projectName,
+          link: projectName.link ?? "",
+          ghLink: projectName.ghLink ?? ""
+        });
       }
     });
   }
