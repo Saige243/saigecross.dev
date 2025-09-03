@@ -16,6 +16,8 @@ import svelte from '$lib/assets/badges/svelte.svg';
 import tailwind from '$lib/assets/badges/tailwind.svg';
 import typescript from '$lib/assets/badges/typescript.svg';
 import storybook from '$lib/assets/badges/storybook.svg';
+import trpc from '$lib/assets/badges/trpc.svg';
+import prisma from '$lib/assets/badges/prisma.svg';
 
 export const stackData = [
 	{
@@ -107,5 +109,15 @@ export const stackData = [
 		title: 'Docker',
 		image: docker,
 		link: 'https://docs.docker.com/'
+	},
+	{
+		title: 'tRPC',
+		image: trpc,
+		link: 'https://trpc.io/'
+	},
+	{
+		title: 'Prisma',
+		image: prisma,
+		link: 'https://trpc.io/'
 	}
 ];

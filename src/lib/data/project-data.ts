@@ -18,7 +18,7 @@ export const projectData = [
 			'A travel-planning app that allows detailed trip data saving, packing lists, itineraries, and much more.',
 		image: travelapp,
 		link: 'https://www.google.com',
-		stack: ['Typescript', 'NextJS', 'Prisma', 'tRPC']
+		stack: ['Typescript', 'NextJs', 'Prisma', 'tRPC', 'TailwindCSS']
 	},
 	{
 		title: 'Maisie Cross Designs',
@@ -26,7 +26,7 @@ export const projectData = [
 			'A static portfolio site built for Product/Graphic/UX/UI designer, Maisie Cross to showcase her work.',
 		image: mcd,
 		link: 'https://www.google.com',
-		stack: ['Typescript', 'NextJS', 'TailwindCSS']
+		stack: ['Typescript', 'NextJs', 'TailwindCSS']
 	},
 	{
 		title: 'SaigeCross.dev',
@@ -53,7 +53,7 @@ export const projectPageData = [
 			"Voya Travel is your straightforward solution for organizing trips with ease. Built with the T3 stack (Next.js, TailwindCSS, Prisma, tRPC), this app offers a simple yet powerful platform to manage all your travel essentials. Recognizing the need for a comprehensive travel planner, I created Voya Travel to address the challenges of organizing trips. It's not just about storing data; it's about enhancing your travel preparation with a user-friendly tool that grows with your needs. Im continuously working on improving Voya, adding new functionalities and refining the user experience. Make sure to check back for updates and new features. Your next trip planning experience could be even smoother!",
 		image: travelapp,
 		link: 'https://github.com/Saige243/voya',
-		stack: ['Typescript', 'NextJS', 'TailwindCSS', 'Prisma']
+		stack: ['Typescript', 'NextJS', 'Prisma', 'tRPC', 'TailwindCSS']
 	},
 	{
 		title: 'Maisie Cross Designs',
