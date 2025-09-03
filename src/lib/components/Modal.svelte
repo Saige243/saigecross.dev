@@ -30,7 +30,11 @@
 	$: if ($$props.projectContent) {
 		projectPageData.map((projectName) => {
 			if ($$props.projectContent === projectName.title) {
-				projectContent.set(projectName);
+				projectContent.set({
+					...projectName,
+					link: projectName.link ?? '',
+					ghLink: projectName.ghLink ?? ''
+				});
 			}
 		});
 	}
@@ -52,16 +56,18 @@
 			<h1
 				class="text-5xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
 			>
-				{$projectContent.title === 'TravelApp' ? 'Travel App (In progress)' : $projectContent.title}
+				{$projectContent.title === 'Voya Travel'
+					? 'Voya Travel (In progress)'
+					: $projectContent.title}
 				<hr />
 			</h1>
 		</div>
 		<div class="xl:flex justify-between space-x-2 space-y-2">
-			<div class="flex place-content-center xl:w-1/2">
+			<div class="flex place-content-center xl:w-2/3 h-full">
 				<img src={$projectContent.image} alt={$projectContent.title} />
 			</div>
 			<hr />
-			<div class="flex flex-col xl:w-1/2 text-wrap justify-center">
+			<div class="flex flex-col xl:w-1/3 text-wrap">
 				<p class="dark:text-white py-8">{$projectContent.description}</p>
 				<div class="md:flex md:space-x-2">
 					{#if $projectContent.title !== 'SaigeCross.dev'}
@@ -70,20 +76,10 @@
 							target="_blank"
 							class="flex justify-between md:w-1/2 bg-seafoam text-white py-2 mb-8 px-4 rounded hover:opacity-80 transition-colors duration-200 text-center cursor-pointe text-sm lg:text-base"
 						>
-							{$projectContent.title === 'TravelApp'
-								? 'Github repository (frontend)'
-								: 'Github repository'}
+							{$projectContent.title === 'Voya Travel' ? 'Github Link' : $projectContent.title}
 							<img src={ExternalLink} alt="external link" class="w-4" />
 						</a>
 					{/if}
-					<a
-						href={$projectContent.ghLink}
-						target="_blank"
-						class="flex justify-between md:w-1/2 bg-seafoam text-white py-2 mb-8 px-4 rounded hover:opacity-80 transition-colors duration-200 text-center cursor-pointer text-sm lg:text-base"
-					>
-						{$projectContent.title === 'TravelApp' ? 'Github repository (backend)' : 'Check it out'}
-						<img src={ExternalLink} alt="external link" class="w-4" />
-					</a>
 				</div>
 				{#if Array.isArray($projectContent.stack)}
 					<p class="text-black dark:text-white">{$projectContent.stack.join(', ')}</p>
